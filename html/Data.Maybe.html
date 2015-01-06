@@ -108,2685 +108,2685 @@
       >import</a
       ><a name="409"
       > </a
-      ><a name="410" href="Data.Maybe.Minimal.html#1" class="Module"
-      >Data.Maybe.Minimal</a
-      ><a name="428"
+      ><a name="410" href="Data.Maybe.Base.html#1" class="Module"
+      >Data.Maybe.Base</a
+      ><a name="425"
       > </a
-      ><a name="429" class="Keyword"
+      ><a name="426" class="Keyword"
       >public</a
-      ><a name="435"
+      ><a name="432"
       >
 
 </a
-      ><a name="437" class="Comment"
+      ><a name="434" class="Comment"
       >------------------------------------------------------------------------</a
-      ><a name="509"
+      ><a name="506"
       >
 </a
-      ><a name="510" class="Comment"
+      ><a name="507" class="Comment"
       >-- Maybe monad</a
-      ><a name="524"
+      ><a name="521"
       >
 
 </a
-      ><a name="526" class="Keyword"
+      ><a name="523" class="Keyword"
       >open</a
-      ><a name="530"
+      ><a name="527"
       > </a
-      ><a name="531" class="Keyword"
+      ><a name="528" class="Keyword"
       >import</a
-      ><a name="537"
+      ><a name="534"
       > </a
-      ><a name="538" href="Category.Functor.html#1" class="Module"
+      ><a name="535" href="Category.Functor.html#1" class="Module"
       >Category.Functor</a
-      ><a name="554"
+      ><a name="551"
       >
 </a
-      ><a name="555" class="Keyword"
+      ><a name="552" class="Keyword"
       >open</a
-      ><a name="559"
+      ><a name="556"
       > </a
-      ><a name="560" class="Keyword"
+      ><a name="557" class="Keyword"
       >import</a
-      ><a name="566"
+      ><a name="563"
       > </a
-      ><a name="567" href="Category.Monad.html#1" class="Module"
+      ><a name="564" href="Category.Monad.html#1" class="Module"
       >Category.Monad</a
-      ><a name="581"
+      ><a name="578"
       >
 </a
-      ><a name="582" class="Keyword"
+      ><a name="579" class="Keyword"
       >open</a
-      ><a name="586"
+      ><a name="583"
       > </a
-      ><a name="587" class="Keyword"
+      ><a name="584" class="Keyword"
       >import</a
-      ><a name="593"
+      ><a name="590"
       > </a
-      ><a name="594" href="Category.Monad.Identity.html#1" class="Module"
+      ><a name="591" href="Category.Monad.Identity.html#1" class="Module"
       >Category.Monad.Identity</a
-      ><a name="617"
+      ><a name="614"
       >
 
 </a
-      ><a name="619" href="Data.Maybe.html#619" class="Function"
+      ><a name="616" href="Data.Maybe.html#616" class="Function"
       >functor</a
-      ><a name="626"
+      ><a name="623"
       > </a
-      ><a name="627" class="Symbol"
+      ><a name="624" class="Symbol"
       >:</a
-      ><a name="628"
+      ><a name="625"
       > </a
-      ><a name="629" class="Symbol"
+      ><a name="626" class="Symbol"
       >&#8704;</a
-      ><a name="630"
+      ><a name="627"
       > </a
-      ><a name="631" class="Symbol"
+      ><a name="628" class="Symbol"
       >{</a
-      ><a name="632" href="Data.Maybe.html#632" class="Bound"
+      ><a name="629" href="Data.Maybe.html#629" class="Bound"
       >f</a
-      ><a name="633" class="Symbol"
+      ><a name="630" class="Symbol"
       >}</a
-      ><a name="634"
+      ><a name="631"
       > </a
-      ><a name="635" class="Symbol"
+      ><a name="632" class="Symbol"
       >&#8594;</a
-      ><a name="636"
+      ><a name="633"
       > </a
-      ><a name="637" href="Category.Functor.html#334" class="Record"
+      ><a name="634" href="Category.Functor.html#334" class="Record"
       >RawFunctor</a
-      ><a name="647"
+      ><a name="644"
       > </a
-      ><a name="648" class="Symbol"
+      ><a name="645" class="Symbol"
       >(</a
-      ><a name="649" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="646" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
+      ><a name="651"
+      > </a
+      ><a name="652" class="Symbol"
+      >{</a
+      ><a name="653" class="Argument"
+      >a</a
       ><a name="654"
       > </a
       ><a name="655" class="Symbol"
-      >{</a
-      ><a name="656" class="Argument"
-      >a</a
-      ><a name="657"
-      > </a
-      ><a name="658" class="Symbol"
       >=</a
-      ><a name="659"
+      ><a name="656"
       > </a
-      ><a name="660" href="Data.Maybe.html#632" class="Bound"
+      ><a name="657" href="Data.Maybe.html#629" class="Bound"
       >f</a
-      ><a name="661" class="Symbol"
+      ><a name="658" class="Symbol"
       >})</a
-      ><a name="663"
+      ><a name="660"
       >
 </a
-      ><a name="664" href="Data.Maybe.html#619" class="Function"
+      ><a name="661" href="Data.Maybe.html#616" class="Function"
       >functor</a
-      ><a name="671"
+      ><a name="668"
       > </a
-      ><a name="672" class="Symbol"
+      ><a name="669" class="Symbol"
       >=</a
-      ><a name="673"
+      ><a name="670"
       > </a
-      ><a name="674" class="Keyword"
+      ><a name="671" class="Keyword"
       >record</a
-      ><a name="680"
+      ><a name="677"
       >
   </a
-      ><a name="683" class="Symbol"
+      ><a name="680" class="Symbol"
       >{</a
-      ><a name="684"
+      ><a name="681"
       > </a
-      ><a name="685" class="Field Operator"
+      ><a name="682" class="Field Operator"
       >_&lt;$&gt;_</a
-      ><a name="690"
+      ><a name="687"
       > </a
-      ><a name="691" class="Symbol"
+      ><a name="688" class="Symbol"
       >=</a
-      ><a name="692"
+      ><a name="689"
       > </a
-      ><a name="693" href="Data.Maybe.Minimal.html#1765" class="Function"
+      ><a name="690" href="Data.Maybe.Base.html#1756" class="Function"
       >map</a
-      ><a name="696"
+      ><a name="693"
       >
   </a
-      ><a name="699" class="Symbol"
+      ><a name="696" class="Symbol"
       >}</a
-      ><a name="700"
+      ><a name="697"
       >
 
 </a
-      ><a name="702" href="Data.Maybe.html#702" class="Function"
+      ><a name="699" href="Data.Maybe.html#699" class="Function"
       >monadT</a
-      ><a name="708"
+      ><a name="705"
       > </a
-      ><a name="709" class="Symbol"
+      ><a name="706" class="Symbol"
       >:</a
-      ><a name="710"
+      ><a name="707"
       > </a
-      ><a name="711" class="Symbol"
+      ><a name="708" class="Symbol"
       >&#8704;</a
-      ><a name="712"
+      ><a name="709"
       > </a
-      ><a name="713" class="Symbol"
+      ><a name="710" class="Symbol"
       >{</a
-      ><a name="714" href="Data.Maybe.html#714" class="Bound"
+      ><a name="711" href="Data.Maybe.html#711" class="Bound"
       >f</a
-      ><a name="715" class="Symbol"
+      ><a name="712" class="Symbol"
       >}</a
+      ><a name="713"
+      > </a
+      ><a name="714" class="Symbol"
+      >{</a
+      ><a name="715" href="Data.Maybe.html#715" class="Bound"
+      >M</a
       ><a name="716"
       > </a
       ><a name="717" class="Symbol"
-      >{</a
-      ><a name="718" href="Data.Maybe.html#718" class="Bound"
-      >M</a
-      ><a name="719"
-      > </a
-      ><a name="720" class="Symbol"
       >:</a
-      ><a name="721"
+      ><a name="718"
       > </a
-      ><a name="722" class="PrimitiveType"
+      ><a name="719" class="PrimitiveType"
       >Set</a
-      ><a name="725"
+      ><a name="722"
       > </a
-      ><a name="726" href="Data.Maybe.html#714" class="Bound"
+      ><a name="723" href="Data.Maybe.html#711" class="Bound"
       >f</a
-      ><a name="727"
+      ><a name="724"
       > </a
-      ><a name="728" class="Symbol"
+      ><a name="725" class="Symbol"
       >&#8594;</a
-      ><a name="729"
+      ><a name="726"
       > </a
-      ><a name="730" class="PrimitiveType"
+      ><a name="727" class="PrimitiveType"
       >Set</a
+      ><a name="730"
+      > </a
+      ><a name="731" href="Data.Maybe.html#711" class="Bound"
+      >f</a
+      ><a name="732" class="Symbol"
+      >}</a
       ><a name="733"
       > </a
-      ><a name="734" href="Data.Maybe.html#714" class="Bound"
-      >f</a
-      ><a name="735" class="Symbol"
-      >}</a
-      ><a name="736"
-      > </a
-      ><a name="737" class="Symbol"
+      ><a name="734" class="Symbol"
       >&#8594;</a
-      ><a name="738"
+      ><a name="735"
       >
          </a
-      ><a name="748" href="Category.Monad.html#360" class="Function"
+      ><a name="745" href="Category.Monad.html#360" class="Function"
       >RawMonad</a
-      ><a name="756"
+      ><a name="753"
       > </a
-      ><a name="757" href="Data.Maybe.html#718" class="Bound"
+      ><a name="754" href="Data.Maybe.html#715" class="Bound"
       >M</a
-      ><a name="758"
+      ><a name="755"
       > </a
-      ><a name="759" class="Symbol"
+      ><a name="756" class="Symbol"
       >&#8594;</a
-      ><a name="760"
+      ><a name="757"
       > </a
-      ><a name="761" href="Category.Monad.html#360" class="Function"
+      ><a name="758" href="Category.Monad.html#360" class="Function"
       >RawMonad</a
+      ><a name="766"
+      > </a
+      ><a name="767" class="Symbol"
+      >(&#955;</a
       ><a name="769"
       > </a
-      ><a name="770" class="Symbol"
-      >(&#955;</a
-      ><a name="772"
-      > </a
-      ><a name="773" href="Data.Maybe.html#773" class="Bound"
+      ><a name="770" href="Data.Maybe.html#770" class="Bound"
       >A</a
-      ><a name="774"
+      ><a name="771"
       > </a
-      ><a name="775" class="Symbol"
+      ><a name="772" class="Symbol"
       >&#8594;</a
-      ><a name="776"
+      ><a name="773"
       > </a
-      ><a name="777" href="Data.Maybe.html#718" class="Bound"
+      ><a name="774" href="Data.Maybe.html#715" class="Bound"
       >M</a
-      ><a name="778"
+      ><a name="775"
       > </a
-      ><a name="779" class="Symbol"
+      ><a name="776" class="Symbol"
       >(</a
-      ><a name="780" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="777" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
-      ><a name="785"
+      ><a name="782"
       > </a
-      ><a name="786" href="Data.Maybe.html#773" class="Bound"
+      ><a name="783" href="Data.Maybe.html#770" class="Bound"
       >A</a
-      ><a name="787" class="Symbol"
+      ><a name="784" class="Symbol"
       >))</a
-      ><a name="789"
+      ><a name="786"
       >
 </a
-      ><a name="790" href="Data.Maybe.html#702" class="Function"
+      ><a name="787" href="Data.Maybe.html#699" class="Function"
       >monadT</a
-      ><a name="796"
+      ><a name="793"
       > </a
-      ><a name="797" href="Data.Maybe.html#797" class="Bound"
+      ><a name="794" href="Data.Maybe.html#794" class="Bound"
       >M</a
-      ><a name="798"
+      ><a name="795"
       > </a
-      ><a name="799" class="Symbol"
+      ><a name="796" class="Symbol"
       >=</a
-      ><a name="800"
+      ><a name="797"
       > </a
-      ><a name="801" class="Keyword"
+      ><a name="798" class="Keyword"
       >record</a
-      ><a name="807"
+      ><a name="804"
       >
   </a
-      ><a name="810" class="Symbol"
+      ><a name="807" class="Symbol"
       >{</a
-      ><a name="811"
+      ><a name="808"
       > </a
-      ><a name="812" class="Field"
+      ><a name="809" class="Field"
       >return</a
-      ><a name="818"
+      ><a name="815"
       > </a
-      ><a name="819" class="Symbol"
+      ><a name="816" class="Symbol"
       >=</a
-      ><a name="820"
+      ><a name="817"
       > </a
-      ><a name="821" href="Category.Monad.Indexed.html#533" class="Function"
+      ><a name="818" href="Category.Monad.Indexed.html#533" class="Function"
       >M.return</a
-      ><a name="829"
+      ><a name="826"
       > </a
-      ><a name="830" href="Function.html#713" class="Function Operator"
+      ><a name="827" href="Function.html#713" class="Function Operator"
       >&#8728;</a
-      ><a name="831"
+      ><a name="828"
       > </a
-      ><a name="832" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="829" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="836"
+      ><a name="833"
       >
   </a
-      ><a name="839" class="Symbol"
+      ><a name="836" class="Symbol"
       >;</a
-      ><a name="840"
+      ><a name="837"
       > </a
-      ><a name="841" class="Field Operator"
+      ><a name="838" class="Field Operator"
       >_&gt;&gt;=_</a
-      ><a name="846"
+      ><a name="843"
       >  </a
-      ><a name="848" class="Symbol"
+      ><a name="845" class="Symbol"
       >=</a
-      ><a name="849"
+      ><a name="846"
       > </a
-      ><a name="850" class="Symbol"
+      ><a name="847" class="Symbol"
       >&#955;</a
-      ><a name="851"
+      ><a name="848"
       > </a
-      ><a name="852" href="Data.Maybe.html#852" class="Bound"
+      ><a name="849" href="Data.Maybe.html#849" class="Bound"
       >m</a
-      ><a name="853"
+      ><a name="850"
       > </a
-      ><a name="854" href="Data.Maybe.html#854" class="Bound"
+      ><a name="851" href="Data.Maybe.html#851" class="Bound"
       >f</a
-      ><a name="855"
+      ><a name="852"
       > </a
-      ><a name="856" class="Symbol"
+      ><a name="853" class="Symbol"
       >&#8594;</a
-      ><a name="857"
+      ><a name="854"
       > </a
-      ><a name="858" href="Category.Monad.Indexed.html#568" class="Function Operator"
+      ><a name="855" href="Category.Monad.Indexed.html#568" class="Function Operator"
       >M._&gt;&gt;=_</a
-      ><a name="865"
+      ><a name="862"
       > </a
-      ><a name="866" href="Data.Maybe.html#852" class="Bound"
+      ><a name="863" href="Data.Maybe.html#849" class="Bound"
       >m</a
-      ><a name="867"
+      ><a name="864"
       > </a
-      ><a name="868" class="Symbol"
+      ><a name="865" class="Symbol"
       >(</a
-      ><a name="869" href="Data.Maybe.Minimal.html#1146" class="Function"
+      ><a name="866" href="Data.Maybe.Base.html#1137" class="Function"
       >maybe</a
-      ><a name="874"
+      ><a name="871"
       > </a
-      ><a name="875" href="Data.Maybe.html#854" class="Bound"
+      ><a name="872" href="Data.Maybe.html#851" class="Bound"
       >f</a
-      ><a name="876"
+      ><a name="873"
       > </a
-      ><a name="877" class="Symbol"
+      ><a name="874" class="Symbol"
       >(</a
-      ><a name="878" href="Category.Monad.Indexed.html#533" class="Function"
+      ><a name="875" href="Category.Monad.Indexed.html#533" class="Function"
       >M.return</a
-      ><a name="886"
+      ><a name="883"
       > </a
-      ><a name="887" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="884" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="894" class="Symbol"
+      ><a name="891" class="Symbol"
       >))</a
-      ><a name="896"
+      ><a name="893"
       >
   </a
-      ><a name="899" class="Symbol"
+      ><a name="896" class="Symbol"
       >}</a
-      ><a name="900"
+      ><a name="897"
       >
   </a
-      ><a name="903" class="Keyword"
+      ><a name="900" class="Keyword"
       >where</a
-      ><a name="908"
+      ><a name="905"
       > </a
-      ><a name="909" class="Keyword"
+      ><a name="906" class="Keyword"
       >module</a
-      ><a name="915"
+      ><a name="912"
       > </a
-      ><a name="916" href="Data.Maybe.html#916" class="Module"
+      ><a name="913" href="Data.Maybe.html#913" class="Module"
       >M</a
-      ><a name="917"
+      ><a name="914"
       > </a
-      ><a name="918" class="Symbol"
+      ><a name="915" class="Symbol"
       >=</a
-      ><a name="919"
+      ><a name="916"
       > </a
-      ><a name="920" href="Category.Monad.html#652" class="Module"
+      ><a name="917" href="Category.Monad.html#652" class="Module"
       >RawMonad</a
-      ><a name="928"
+      ><a name="925"
       > </a
-      ><a name="929" href="Data.Maybe.html#797" class="Bound"
+      ><a name="926" href="Data.Maybe.html#794" class="Bound"
       >M</a
-      ><a name="930"
+      ><a name="927"
       >
 
 </a
-      ><a name="932" href="Data.Maybe.html#932" class="Function"
+      ><a name="929" href="Data.Maybe.html#929" class="Function"
       >monad</a
-      ><a name="937"
+      ><a name="934"
       > </a
-      ><a name="938" class="Symbol"
+      ><a name="935" class="Symbol"
       >:</a
-      ><a name="939"
+      ><a name="936"
       > </a
-      ><a name="940" class="Symbol"
+      ><a name="937" class="Symbol"
       >&#8704;</a
-      ><a name="941"
+      ><a name="938"
       > </a
-      ><a name="942" class="Symbol"
+      ><a name="939" class="Symbol"
       >{</a
-      ><a name="943" href="Data.Maybe.html#943" class="Bound"
+      ><a name="940" href="Data.Maybe.html#940" class="Bound"
       >f</a
-      ><a name="944" class="Symbol"
+      ><a name="941" class="Symbol"
       >}</a
-      ><a name="945"
+      ><a name="942"
       > </a
-      ><a name="946" class="Symbol"
+      ><a name="943" class="Symbol"
       >&#8594;</a
-      ><a name="947"
+      ><a name="944"
       > </a
-      ><a name="948" href="Category.Monad.html#360" class="Function"
+      ><a name="945" href="Category.Monad.html#360" class="Function"
       >RawMonad</a
-      ><a name="956"
+      ><a name="953"
       > </a
-      ><a name="957" class="Symbol"
+      ><a name="954" class="Symbol"
       >(</a
-      ><a name="958" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="955" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
+      ><a name="960"
+      > </a
+      ><a name="961" class="Symbol"
+      >{</a
+      ><a name="962" class="Argument"
+      >a</a
       ><a name="963"
       > </a
       ><a name="964" class="Symbol"
-      >{</a
-      ><a name="965" class="Argument"
-      >a</a
-      ><a name="966"
-      > </a
-      ><a name="967" class="Symbol"
       >=</a
-      ><a name="968"
+      ><a name="965"
       > </a
-      ><a name="969" href="Data.Maybe.html#943" class="Bound"
+      ><a name="966" href="Data.Maybe.html#940" class="Bound"
       >f</a
-      ><a name="970" class="Symbol"
+      ><a name="967" class="Symbol"
       >})</a
-      ><a name="972"
+      ><a name="969"
       >
 </a
-      ><a name="973" href="Data.Maybe.html#932" class="Function"
+      ><a name="970" href="Data.Maybe.html#929" class="Function"
       >monad</a
-      ><a name="978"
+      ><a name="975"
       > </a
-      ><a name="979" class="Symbol"
+      ><a name="976" class="Symbol"
       >=</a
-      ><a name="980"
+      ><a name="977"
       > </a
-      ><a name="981" href="Data.Maybe.html#702" class="Function"
+      ><a name="978" href="Data.Maybe.html#699" class="Function"
       >monadT</a
-      ><a name="987"
+      ><a name="984"
       > </a
-      ><a name="988" href="Category.Monad.Identity.html#317" class="Function"
+      ><a name="985" href="Category.Monad.Identity.html#317" class="Function"
       >IdentityMonad</a
-      ><a name="1001"
+      ><a name="998"
       >
 
 </a
-      ><a name="1003" href="Data.Maybe.html#1003" class="Function"
+      ><a name="1000" href="Data.Maybe.html#1000" class="Function"
       >monadZero</a
-      ><a name="1012"
+      ><a name="1009"
       > </a
-      ><a name="1013" class="Symbol"
+      ><a name="1010" class="Symbol"
       >:</a
-      ><a name="1014"
+      ><a name="1011"
       > </a
-      ><a name="1015" class="Symbol"
+      ><a name="1012" class="Symbol"
       >&#8704;</a
-      ><a name="1016"
+      ><a name="1013"
       > </a
-      ><a name="1017" class="Symbol"
+      ><a name="1014" class="Symbol"
       >{</a
-      ><a name="1018" href="Data.Maybe.html#1018" class="Bound"
+      ><a name="1015" href="Data.Maybe.html#1015" class="Bound"
       >f</a
-      ><a name="1019" class="Symbol"
+      ><a name="1016" class="Symbol"
       >}</a
-      ><a name="1020"
+      ><a name="1017"
       > </a
-      ><a name="1021" class="Symbol"
+      ><a name="1018" class="Symbol"
       >&#8594;</a
-      ><a name="1022"
+      ><a name="1019"
       > </a
-      ><a name="1023" href="Category.Monad.html#447" class="Function"
+      ><a name="1020" href="Category.Monad.html#447" class="Function"
       >RawMonadZero</a
-      ><a name="1035"
+      ><a name="1032"
       > </a
-      ><a name="1036" class="Symbol"
+      ><a name="1033" class="Symbol"
       >(</a
-      ><a name="1037" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1034" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
+      ><a name="1039"
+      > </a
+      ><a name="1040" class="Symbol"
+      >{</a
+      ><a name="1041" class="Argument"
+      >a</a
       ><a name="1042"
       > </a
       ><a name="1043" class="Symbol"
-      >{</a
-      ><a name="1044" class="Argument"
-      >a</a
-      ><a name="1045"
-      > </a
-      ><a name="1046" class="Symbol"
       >=</a
-      ><a name="1047"
+      ><a name="1044"
       > </a
-      ><a name="1048" href="Data.Maybe.html#1018" class="Bound"
+      ><a name="1045" href="Data.Maybe.html#1015" class="Bound"
       >f</a
-      ><a name="1049" class="Symbol"
+      ><a name="1046" class="Symbol"
       >})</a
-      ><a name="1051"
+      ><a name="1048"
       >
 </a
-      ><a name="1052" href="Data.Maybe.html#1003" class="Function"
+      ><a name="1049" href="Data.Maybe.html#1000" class="Function"
       >monadZero</a
-      ><a name="1061"
+      ><a name="1058"
       > </a
-      ><a name="1062" class="Symbol"
+      ><a name="1059" class="Symbol"
       >=</a
-      ><a name="1063"
+      ><a name="1060"
       > </a
-      ><a name="1064" class="Keyword"
+      ><a name="1061" class="Keyword"
       >record</a
-      ><a name="1070"
+      ><a name="1067"
       >
   </a
-      ><a name="1073" class="Symbol"
+      ><a name="1070" class="Symbol"
       >{</a
-      ><a name="1074"
+      ><a name="1071"
       > </a
-      ><a name="1075" class="Field"
+      ><a name="1072" class="Field"
       >monad</a
-      ><a name="1080"
+      ><a name="1077"
       > </a
-      ><a name="1081" class="Symbol"
+      ><a name="1078" class="Symbol"
       >=</a
-      ><a name="1082"
+      ><a name="1079"
       > </a
-      ><a name="1083" href="Data.Maybe.html#932" class="Function"
+      ><a name="1080" href="Data.Maybe.html#929" class="Function"
       >monad</a
-      ><a name="1088"
+      ><a name="1085"
       >
   </a
-      ><a name="1091" class="Symbol"
+      ><a name="1088" class="Symbol"
       >;</a
-      ><a name="1092"
+      ><a name="1089"
       > </a
-      ><a name="1093" class="Field"
+      ><a name="1090" class="Field"
       >&#8709;</a
-      ><a name="1094"
+      ><a name="1091"
       >     </a
-      ><a name="1099" class="Symbol"
+      ><a name="1096" class="Symbol"
       >=</a
-      ><a name="1100"
+      ><a name="1097"
       > </a
-      ><a name="1101" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="1098" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="1108"
+      ><a name="1105"
       >
   </a
-      ><a name="1111" class="Symbol"
+      ><a name="1108" class="Symbol"
       >}</a
-      ><a name="1112"
+      ><a name="1109"
       >
 
 </a
-      ><a name="1114" href="Data.Maybe.html#1114" class="Function"
+      ><a name="1111" href="Data.Maybe.html#1111" class="Function"
       >monadPlus</a
-      ><a name="1123"
+      ><a name="1120"
       > </a
-      ><a name="1124" class="Symbol"
+      ><a name="1121" class="Symbol"
       >:</a
-      ><a name="1125"
+      ><a name="1122"
       > </a
-      ><a name="1126" class="Symbol"
+      ><a name="1123" class="Symbol"
       >&#8704;</a
-      ><a name="1127"
+      ><a name="1124"
       > </a
-      ><a name="1128" class="Symbol"
+      ><a name="1125" class="Symbol"
       >{</a
-      ><a name="1129" href="Data.Maybe.html#1129" class="Bound"
+      ><a name="1126" href="Data.Maybe.html#1126" class="Bound"
       >f</a
-      ><a name="1130" class="Symbol"
+      ><a name="1127" class="Symbol"
       >}</a
-      ><a name="1131"
+      ><a name="1128"
       > </a
-      ><a name="1132" class="Symbol"
+      ><a name="1129" class="Symbol"
       >&#8594;</a
-      ><a name="1133"
+      ><a name="1130"
       > </a
-      ><a name="1134" href="Category.Monad.html#546" class="Function"
+      ><a name="1131" href="Category.Monad.html#546" class="Function"
       >RawMonadPlus</a
-      ><a name="1146"
+      ><a name="1143"
       > </a
-      ><a name="1147" class="Symbol"
+      ><a name="1144" class="Symbol"
       >(</a
-      ><a name="1148" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1145" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
+      ><a name="1150"
+      > </a
+      ><a name="1151" class="Symbol"
+      >{</a
+      ><a name="1152" class="Argument"
+      >a</a
       ><a name="1153"
       > </a
       ><a name="1154" class="Symbol"
-      >{</a
-      ><a name="1155" class="Argument"
-      >a</a
-      ><a name="1156"
-      > </a
-      ><a name="1157" class="Symbol"
       >=</a
-      ><a name="1158"
+      ><a name="1155"
       > </a
-      ><a name="1159" href="Data.Maybe.html#1129" class="Bound"
+      ><a name="1156" href="Data.Maybe.html#1126" class="Bound"
       >f</a
-      ><a name="1160" class="Symbol"
+      ><a name="1157" class="Symbol"
       >})</a
-      ><a name="1162"
+      ><a name="1159"
       >
 </a
-      ><a name="1163" href="Data.Maybe.html#1114" class="Function"
+      ><a name="1160" href="Data.Maybe.html#1111" class="Function"
       >monadPlus</a
-      ><a name="1172"
+      ><a name="1169"
       > </a
-      ><a name="1173" class="Symbol"
+      ><a name="1170" class="Symbol"
       >{</a
-      ><a name="1174" href="Data.Maybe.html#1174" class="Bound"
+      ><a name="1171" href="Data.Maybe.html#1171" class="Bound"
       >f</a
-      ><a name="1175" class="Symbol"
+      ><a name="1172" class="Symbol"
       >}</a
-      ><a name="1176"
+      ><a name="1173"
       > </a
-      ><a name="1177" class="Symbol"
+      ><a name="1174" class="Symbol"
       >=</a
-      ><a name="1178"
+      ><a name="1175"
       > </a
-      ><a name="1179" class="Keyword"
+      ><a name="1176" class="Keyword"
       >record</a
-      ><a name="1185"
+      ><a name="1182"
       >
   </a
-      ><a name="1188" class="Symbol"
+      ><a name="1185" class="Symbol"
       >{</a
-      ><a name="1189"
+      ><a name="1186"
       > </a
-      ><a name="1190" class="Field"
+      ><a name="1187" class="Field"
       >monadZero</a
-      ><a name="1199"
+      ><a name="1196"
       > </a
-      ><a name="1200" class="Symbol"
+      ><a name="1197" class="Symbol"
       >=</a
-      ><a name="1201"
+      ><a name="1198"
       > </a
-      ><a name="1202" href="Data.Maybe.html#1003" class="Function"
+      ><a name="1199" href="Data.Maybe.html#1000" class="Function"
       >monadZero</a
-      ><a name="1211"
+      ><a name="1208"
       >
   </a
-      ><a name="1214" class="Symbol"
+      ><a name="1211" class="Symbol"
       >;</a
-      ><a name="1215"
+      ><a name="1212"
       > </a
-      ><a name="1216" class="Field Operator"
+      ><a name="1213" class="Field Operator"
       >_&#8739;_</a
-      ><a name="1219"
+      ><a name="1216"
       >       </a
-      ><a name="1226" class="Symbol"
+      ><a name="1223" class="Symbol"
       >=</a
-      ><a name="1227"
+      ><a name="1224"
       > </a
-      ><a name="1228" href="Data.Maybe.html#1246" class="Function Operator"
+      ><a name="1225" href="Data.Maybe.html#1243" class="Function Operator"
       >_&#8739;_</a
-      ><a name="1231"
+      ><a name="1228"
       >
   </a
-      ><a name="1234" class="Symbol"
+      ><a name="1231" class="Symbol"
       >}</a
-      ><a name="1235"
+      ><a name="1232"
       >
   </a
-      ><a name="1238" class="Keyword"
+      ><a name="1235" class="Keyword"
       >where</a
-      ><a name="1243"
+      ><a name="1240"
       >
   </a
-      ><a name="1246" href="Data.Maybe.html#1246" class="Function Operator"
+      ><a name="1243" href="Data.Maybe.html#1243" class="Function Operator"
       >_&#8739;_</a
-      ><a name="1249"
+      ><a name="1246"
       > </a
-      ><a name="1250" class="Symbol"
+      ><a name="1247" class="Symbol"
       >:</a
+      ><a name="1248"
+      > </a
+      ><a name="1249" class="Symbol"
+      >{</a
+      ><a name="1250" href="Data.Maybe.html#1250" class="Bound"
+      >A</a
       ><a name="1251"
       > </a
       ><a name="1252" class="Symbol"
-      >{</a
-      ><a name="1253" href="Data.Maybe.html#1253" class="Bound"
-      >A</a
-      ><a name="1254"
-      > </a
-      ><a name="1255" class="Symbol"
       >:</a
-      ><a name="1256"
+      ><a name="1253"
       > </a
-      ><a name="1257" class="PrimitiveType"
+      ><a name="1254" class="PrimitiveType"
       >Set</a
+      ><a name="1257"
+      > </a
+      ><a name="1258" href="Data.Maybe.html#1171" class="Bound"
+      >f</a
+      ><a name="1259" class="Symbol"
+      >}</a
       ><a name="1260"
       > </a
-      ><a name="1261" href="Data.Maybe.html#1174" class="Bound"
-      >f</a
-      ><a name="1262" class="Symbol"
-      >}</a
-      ><a name="1263"
-      > </a
-      ><a name="1264" class="Symbol"
+      ><a name="1261" class="Symbol"
       >&#8594;</a
-      ><a name="1265"
+      ><a name="1262"
       > </a
-      ><a name="1266" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1263" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
-      ><a name="1271"
+      ><a name="1268"
       > </a
-      ><a name="1272" href="Data.Maybe.html#1253" class="Bound"
+      ><a name="1269" href="Data.Maybe.html#1250" class="Bound"
       >A</a
-      ><a name="1273"
+      ><a name="1270"
       > </a
-      ><a name="1274" class="Symbol"
+      ><a name="1271" class="Symbol"
       >&#8594;</a
-      ><a name="1275"
+      ><a name="1272"
       > </a
-      ><a name="1276" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1273" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
-      ><a name="1281"
+      ><a name="1278"
       > </a
-      ><a name="1282" href="Data.Maybe.html#1253" class="Bound"
+      ><a name="1279" href="Data.Maybe.html#1250" class="Bound"
       >A</a
-      ><a name="1283"
+      ><a name="1280"
       > </a
-      ><a name="1284" class="Symbol"
+      ><a name="1281" class="Symbol"
       >&#8594;</a
-      ><a name="1285"
+      ><a name="1282"
       > </a
-      ><a name="1286" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1283" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
-      ><a name="1291"
+      ><a name="1288"
       > </a
-      ><a name="1292" href="Data.Maybe.html#1253" class="Bound"
+      ><a name="1289" href="Data.Maybe.html#1250" class="Bound"
       >A</a
-      ><a name="1293"
+      ><a name="1290"
       >
   </a
-      ><a name="1296" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="1293" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="1303"
+      ><a name="1300"
       > </a
-      ><a name="1304" href="Data.Maybe.html#1246" class="Function Operator"
+      ><a name="1301" href="Data.Maybe.html#1243" class="Function Operator"
       >&#8739;</a
-      ><a name="1305"
+      ><a name="1302"
       > </a
-      ><a name="1306" href="Data.Maybe.html#1306" class="Bound"
+      ><a name="1303" href="Data.Maybe.html#1303" class="Bound"
       >y</a
-      ><a name="1307"
+      ><a name="1304"
       > </a
-      ><a name="1308" class="Symbol"
+      ><a name="1305" class="Symbol"
       >=</a
-      ><a name="1309"
+      ><a name="1306"
       > </a
-      ><a name="1310" href="Data.Maybe.html#1306" class="Bound"
+      ><a name="1307" href="Data.Maybe.html#1303" class="Bound"
       >y</a
-      ><a name="1311"
+      ><a name="1308"
       >
   </a
-      ><a name="1314" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1311" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="1318"
+      ><a name="1315"
       > </a
-      ><a name="1319" href="Data.Maybe.html#1319" class="Bound"
+      ><a name="1316" href="Data.Maybe.html#1316" class="Bound"
       >x</a
-      ><a name="1320"
+      ><a name="1317"
       >  </a
-      ><a name="1322" href="Data.Maybe.html#1246" class="Function Operator"
+      ><a name="1319" href="Data.Maybe.html#1243" class="Function Operator"
       >&#8739;</a
-      ><a name="1323"
+      ><a name="1320"
       > </a
-      ><a name="1324" href="Data.Maybe.html#1324" class="Bound"
+      ><a name="1321" href="Data.Maybe.html#1321" class="Bound"
       >y</a
-      ><a name="1325"
+      ><a name="1322"
       > </a
-      ><a name="1326" class="Symbol"
+      ><a name="1323" class="Symbol"
       >=</a
-      ><a name="1327"
+      ><a name="1324"
       > </a
-      ><a name="1328" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1325" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="1332"
+      ><a name="1329"
       > </a
-      ><a name="1333" href="Data.Maybe.html#1319" class="Bound"
+      ><a name="1330" href="Data.Maybe.html#1316" class="Bound"
       >x</a
-      ><a name="1334"
+      ><a name="1331"
       >
 
 </a
-      ><a name="1336" class="Comment"
+      ><a name="1333" class="Comment"
       >------------------------------------------------------------------------</a
-      ><a name="1408"
+      ><a name="1405"
       >
 </a
-      ><a name="1409" class="Comment"
+      ><a name="1406" class="Comment"
       >-- Equality</a
-      ><a name="1420"
+      ><a name="1417"
       >
 
 </a
-      ><a name="1422" class="Keyword"
+      ><a name="1419" class="Keyword"
       >open</a
-      ><a name="1426"
+      ><a name="1423"
       > </a
-      ><a name="1427" class="Keyword"
+      ><a name="1424" class="Keyword"
       >import</a
-      ><a name="1433"
+      ><a name="1430"
       > </a
-      ><a name="1434" href="Relation.Binary.html#1" class="Module"
+      ><a name="1431" href="Relation.Binary.html#1" class="Module"
       >Relation.Binary</a
+      ><a name="1446"
+      > </a
+      ><a name="1447" class="Symbol"
+      >as</a
       ><a name="1449"
       > </a
-      ><a name="1450" class="Symbol"
-      >as</a
-      ><a name="1452"
-      > </a
-      ><a name="1453" class="Module"
+      ><a name="1450" class="Module"
       >B</a
-      ><a name="1454"
+      ><a name="1451"
       >
 
 </a
-      ><a name="1456" class="Keyword"
+      ><a name="1453" class="Keyword"
       >data</a
+      ><a name="1457"
+      > </a
+      ><a name="1458" href="Data.Maybe.html#1458" class="Datatype"
+      >Eq</a
       ><a name="1460"
       > </a
-      ><a name="1461" href="Data.Maybe.html#1461" class="Datatype"
-      >Eq</a
+      ><a name="1461" class="Symbol"
+      >{</a
+      ><a name="1462" href="Data.Maybe.html#1462" class="Bound"
+      >a</a
       ><a name="1463"
       > </a
-      ><a name="1464" class="Symbol"
-      >{</a
-      ><a name="1465" href="Data.Maybe.html#1465" class="Bound"
-      >a</a
+      ><a name="1464" href="Data.Maybe.html#1464" class="Bound"
+      >&#8467;</a
+      ><a name="1465" class="Symbol"
+      >}</a
       ><a name="1466"
       > </a
-      ><a name="1467" href="Data.Maybe.html#1467" class="Bound"
-      >&#8467;</a
-      ><a name="1468" class="Symbol"
-      >}</a
+      ><a name="1467" class="Symbol"
+      >{</a
+      ><a name="1468" href="Data.Maybe.html#1468" class="Bound"
+      >A</a
       ><a name="1469"
       > </a
       ><a name="1470" class="Symbol"
-      >{</a
-      ><a name="1471" href="Data.Maybe.html#1471" class="Bound"
-      >A</a
-      ><a name="1472"
-      > </a
-      ><a name="1473" class="Symbol"
       >:</a
-      ><a name="1474"
+      ><a name="1471"
       > </a
-      ><a name="1475" class="PrimitiveType"
+      ><a name="1472" class="PrimitiveType"
       >Set</a
+      ><a name="1475"
+      > </a
+      ><a name="1476" href="Data.Maybe.html#1462" class="Bound"
+      >a</a
+      ><a name="1477" class="Symbol"
+      >}</a
       ><a name="1478"
       > </a
-      ><a name="1479" href="Data.Maybe.html#1465" class="Bound"
-      >a</a
-      ><a name="1480" class="Symbol"
-      >}</a
-      ><a name="1481"
-      > </a
-      ><a name="1482" class="Symbol"
+      ><a name="1479" class="Symbol"
       >(</a
-      ><a name="1483" href="Data.Maybe.html#1483" class="Bound Operator"
+      ><a name="1480" href="Data.Maybe.html#1480" class="Bound Operator"
       >_&#8776;_</a
-      ><a name="1486"
+      ><a name="1483"
       > </a
-      ><a name="1487" class="Symbol"
+      ><a name="1484" class="Symbol"
       >:</a
-      ><a name="1488"
+      ><a name="1485"
       > </a
-      ><a name="1489" href="Relation.Binary.Core.html#761" class="Function"
+      ><a name="1486" href="Relation.Binary.Core.html#761" class="Function"
       >Rel</a
-      ><a name="1492"
+      ><a name="1489"
       > </a
-      ><a name="1493" href="Data.Maybe.html#1471" class="Bound"
+      ><a name="1490" href="Data.Maybe.html#1468" class="Bound"
       >A</a
+      ><a name="1491"
+      > </a
+      ><a name="1492" href="Data.Maybe.html#1464" class="Bound"
+      >&#8467;</a
+      ><a name="1493" class="Symbol"
+      >)</a
       ><a name="1494"
       > </a
-      ><a name="1495" href="Data.Maybe.html#1467" class="Bound"
-      >&#8467;</a
-      ><a name="1496" class="Symbol"
-      >)</a
-      ><a name="1497"
-      > </a
-      ><a name="1498" class="Symbol"
+      ><a name="1495" class="Symbol"
       >:</a
-      ><a name="1499"
+      ><a name="1496"
       > </a
-      ><a name="1500" href="Relation.Binary.Core.html#761" class="Function"
+      ><a name="1497" href="Relation.Binary.Core.html#761" class="Function"
       >Rel</a
-      ><a name="1503"
+      ><a name="1500"
       > </a
-      ><a name="1504" class="Symbol"
+      ><a name="1501" class="Symbol"
       >(</a
-      ><a name="1505" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1502" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
+      ><a name="1507"
+      > </a
+      ><a name="1508" href="Data.Maybe.html#1468" class="Bound"
+      >A</a
+      ><a name="1509" class="Symbol"
+      >)</a
       ><a name="1510"
       > </a
-      ><a name="1511" href="Data.Maybe.html#1471" class="Bound"
-      >A</a
-      ><a name="1512" class="Symbol"
-      >)</a
+      ><a name="1511" class="Symbol"
+      >(</a
+      ><a name="1512" href="Data.Maybe.html#1462" class="Bound"
+      >a</a
       ><a name="1513"
       > </a
-      ><a name="1514" class="Symbol"
-      >(</a
-      ><a name="1515" href="Data.Maybe.html#1465" class="Bound"
-      >a</a
-      ><a name="1516"
-      > </a
-      ><a name="1517" href="Agda.Primitive.html#626" class="Primitive Operator"
+      ><a name="1514" href="Agda.Primitive.html#626" class="Primitive Operator"
       >&#8852;</a
+      ><a name="1515"
+      > </a
+      ><a name="1516" href="Data.Maybe.html#1464" class="Bound"
+      >&#8467;</a
+      ><a name="1517" class="Symbol"
+      >)</a
       ><a name="1518"
       > </a
-      ><a name="1519" href="Data.Maybe.html#1467" class="Bound"
-      >&#8467;</a
-      ><a name="1520" class="Symbol"
-      >)</a
-      ><a name="1521"
-      > </a
-      ><a name="1522" class="Keyword"
+      ><a name="1519" class="Keyword"
       >where</a
-      ><a name="1527"
+      ><a name="1524"
       >
   </a
-      ><a name="1530" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="1527" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="1534"
+      ><a name="1531"
       >    </a
-      ><a name="1538" class="Symbol"
+      ><a name="1535" class="Symbol"
       >:</a
-      ><a name="1539"
+      ><a name="1536"
       > </a
-      ><a name="1540" class="Symbol"
+      ><a name="1537" class="Symbol"
       >&#8704;</a
+      ><a name="1538"
+      > </a
+      ><a name="1539" class="Symbol"
+      >{</a
+      ><a name="1540" href="Data.Maybe.html#1540" class="Bound"
+      >x</a
       ><a name="1541"
       > </a
-      ><a name="1542" class="Symbol"
-      >{</a
-      ><a name="1543" href="Data.Maybe.html#1543" class="Bound"
-      >x</a
+      ><a name="1542" href="Data.Maybe.html#1542" class="Bound"
+      >y</a
+      ><a name="1543" class="Symbol"
+      >}</a
       ><a name="1544"
       > </a
-      ><a name="1545" href="Data.Maybe.html#1545" class="Bound"
-      >y</a
-      ><a name="1546" class="Symbol"
-      >}</a
-      ><a name="1547"
-      > </a
-      ><a name="1548" class="Symbol"
+      ><a name="1545" class="Symbol"
       >(</a
-      ><a name="1549" href="Data.Maybe.html#1549" class="Bound"
+      ><a name="1546" href="Data.Maybe.html#1546" class="Bound"
       >x&#8776;y</a
-      ><a name="1552"
+      ><a name="1549"
       > </a
-      ><a name="1553" class="Symbol"
+      ><a name="1550" class="Symbol"
       >:</a
-      ><a name="1554"
+      ><a name="1551"
       > </a
-      ><a name="1555" href="Data.Maybe.html#1543" class="Bound"
+      ><a name="1552" href="Data.Maybe.html#1540" class="Bound"
       >x</a
-      ><a name="1556"
+      ><a name="1553"
       > </a
-      ><a name="1557" href="Data.Maybe.html#1483" class="Bound Operator"
+      ><a name="1554" href="Data.Maybe.html#1480" class="Bound Operator"
       >&#8776;</a
+      ><a name="1555"
+      > </a
+      ><a name="1556" href="Data.Maybe.html#1542" class="Bound"
+      >y</a
+      ><a name="1557" class="Symbol"
+      >)</a
       ><a name="1558"
       > </a
-      ><a name="1559" href="Data.Maybe.html#1545" class="Bound"
-      >y</a
-      ><a name="1560" class="Symbol"
-      >)</a
-      ><a name="1561"
-      > </a
-      ><a name="1562" class="Symbol"
+      ><a name="1559" class="Symbol"
       >&#8594;</a
+      ><a name="1560"
+      > </a
+      ><a name="1561" href="Data.Maybe.html#1458" class="Datatype"
+      >Eq</a
       ><a name="1563"
       > </a
-      ><a name="1564" href="Data.Maybe.html#1461" class="Datatype"
-      >Eq</a
-      ><a name="1566"
-      > </a
-      ><a name="1567" href="Data.Maybe.html#1483" class="Bound Operator"
+      ><a name="1564" href="Data.Maybe.html#1480" class="Bound Operator"
       >_&#8776;_</a
-      ><a name="1570"
+      ><a name="1567"
       > </a
-      ><a name="1571" class="Symbol"
+      ><a name="1568" class="Symbol"
       >(</a
-      ><a name="1572" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1569" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
+      ><a name="1573"
+      > </a
+      ><a name="1574" href="Data.Maybe.html#1540" class="Bound"
+      >x</a
+      ><a name="1575" class="Symbol"
+      >)</a
       ><a name="1576"
       > </a
-      ><a name="1577" href="Data.Maybe.html#1543" class="Bound"
-      >x</a
-      ><a name="1578" class="Symbol"
-      >)</a
-      ><a name="1579"
-      > </a
-      ><a name="1580" class="Symbol"
+      ><a name="1577" class="Symbol"
       >(</a
-      ><a name="1581" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1578" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="1585"
+      ><a name="1582"
       > </a
-      ><a name="1586" href="Data.Maybe.html#1545" class="Bound"
+      ><a name="1583" href="Data.Maybe.html#1542" class="Bound"
       >y</a
-      ><a name="1587" class="Symbol"
+      ><a name="1584" class="Symbol"
       >)</a
-      ><a name="1588"
+      ><a name="1585"
       >
   </a
-      ><a name="1591" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="1588" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="1598"
+      ><a name="1595"
       > </a
-      ><a name="1599" class="Symbol"
+      ><a name="1596" class="Symbol"
       >:</a
+      ><a name="1597"
+      > </a
+      ><a name="1598" href="Data.Maybe.html#1458" class="Datatype"
+      >Eq</a
       ><a name="1600"
       > </a
-      ><a name="1601" href="Data.Maybe.html#1461" class="Datatype"
-      >Eq</a
-      ><a name="1603"
-      > </a
-      ><a name="1604" href="Data.Maybe.html#1483" class="Bound Operator"
+      ><a name="1601" href="Data.Maybe.html#1480" class="Bound Operator"
       >_&#8776;_</a
-      ><a name="1607"
+      ><a name="1604"
       > </a
-      ><a name="1608" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="1605" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="1615"
+      ><a name="1612"
       > </a
-      ><a name="1616" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="1613" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="1623"
+      ><a name="1620"
       >
 
 </a
-      ><a name="1625" href="Data.Maybe.html#1625" class="Function"
+      ><a name="1622" href="Data.Maybe.html#1622" class="Function"
       >drop-just</a
-      ><a name="1634"
+      ><a name="1631"
       > </a
-      ><a name="1635" class="Symbol"
+      ><a name="1632" class="Symbol"
       >:</a
-      ><a name="1636"
+      ><a name="1633"
       > </a
-      ><a name="1637" class="Symbol"
+      ><a name="1634" class="Symbol"
       >&#8704;</a
+      ><a name="1635"
+      > </a
+      ><a name="1636" class="Symbol"
+      >{</a
+      ><a name="1637" href="Data.Maybe.html#1637" class="Bound"
+      >a</a
       ><a name="1638"
       > </a
-      ><a name="1639" class="Symbol"
-      >{</a
-      ><a name="1640" href="Data.Maybe.html#1640" class="Bound"
-      >a</a
+      ><a name="1639" href="Data.Maybe.html#1639" class="Bound"
+      >&#8467;</a
+      ><a name="1640" class="Symbol"
+      >}</a
       ><a name="1641"
       > </a
-      ><a name="1642" href="Data.Maybe.html#1642" class="Bound"
-      >&#8467;</a
-      ><a name="1643" class="Symbol"
-      >}</a
+      ><a name="1642" class="Symbol"
+      >{</a
+      ><a name="1643" href="Data.Maybe.html#1643" class="Bound"
+      >A</a
       ><a name="1644"
       > </a
       ><a name="1645" class="Symbol"
-      >{</a
-      ><a name="1646" href="Data.Maybe.html#1646" class="Bound"
-      >A</a
-      ><a name="1647"
-      > </a
-      ><a name="1648" class="Symbol"
       >:</a
-      ><a name="1649"
+      ><a name="1646"
       > </a
-      ><a name="1650" class="PrimitiveType"
+      ><a name="1647" class="PrimitiveType"
       >Set</a
+      ><a name="1650"
+      > </a
+      ><a name="1651" href="Data.Maybe.html#1637" class="Bound"
+      >a</a
+      ><a name="1652" class="Symbol"
+      >}</a
       ><a name="1653"
       > </a
-      ><a name="1654" href="Data.Maybe.html#1640" class="Bound"
-      >a</a
-      ><a name="1655" class="Symbol"
-      >}</a
-      ><a name="1656"
-      > </a
-      ><a name="1657" class="Symbol"
+      ><a name="1654" class="Symbol"
       >{</a
-      ><a name="1658" href="Data.Maybe.html#1658" class="Bound Operator"
+      ><a name="1655" href="Data.Maybe.html#1655" class="Bound Operator"
       >_&#8776;_</a
-      ><a name="1661"
+      ><a name="1658"
       > </a
-      ><a name="1662" class="Symbol"
+      ><a name="1659" class="Symbol"
       >:</a
-      ><a name="1663"
+      ><a name="1660"
       > </a
-      ><a name="1664" href="Relation.Binary.Core.html#761" class="Function"
+      ><a name="1661" href="Relation.Binary.Core.html#761" class="Function"
       >Rel</a
-      ><a name="1667"
+      ><a name="1664"
       > </a
-      ><a name="1668" href="Data.Maybe.html#1646" class="Bound"
+      ><a name="1665" href="Data.Maybe.html#1643" class="Bound"
       >A</a
+      ><a name="1666"
+      > </a
+      ><a name="1667" href="Data.Maybe.html#1639" class="Bound"
+      >&#8467;</a
+      ><a name="1668" class="Symbol"
+      >}</a
       ><a name="1669"
       > </a
-      ><a name="1670" href="Data.Maybe.html#1642" class="Bound"
-      >&#8467;</a
-      ><a name="1671" class="Symbol"
-      >}</a
+      ><a name="1670" class="Symbol"
+      >{</a
+      ><a name="1671" href="Data.Maybe.html#1671" class="Bound"
+      >x</a
       ><a name="1672"
       > </a
-      ><a name="1673" class="Symbol"
-      >{</a
-      ><a name="1674" href="Data.Maybe.html#1674" class="Bound"
-      >x</a
-      ><a name="1675"
-      > </a
-      ><a name="1676" href="Data.Maybe.html#1676" class="Bound"
+      ><a name="1673" href="Data.Maybe.html#1673" class="Bound"
       >y</a
-      ><a name="1677"
+      ><a name="1674"
       > </a
-      ><a name="1678" class="Symbol"
+      ><a name="1675" class="Symbol"
       >:</a
+      ><a name="1676"
+      > </a
+      ><a name="1677" href="Data.Maybe.html#1643" class="Bound"
+      >A</a
+      ><a name="1678" class="Symbol"
+      >}</a
       ><a name="1679"
       > </a
-      ><a name="1680" href="Data.Maybe.html#1646" class="Bound"
-      >A</a
-      ><a name="1681" class="Symbol"
-      >}</a
-      ><a name="1682"
-      > </a
-      ><a name="1683" class="Symbol"
+      ><a name="1680" class="Symbol"
       >&#8594;</a
-      ><a name="1684"
+      ><a name="1681"
       >
             </a
-      ><a name="1697" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1694" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="1701"
+      ><a name="1698"
       > </a
-      ><a name="1702" href="Data.Maybe.html#1674" class="Bound"
+      ><a name="1699" href="Data.Maybe.html#1671" class="Bound"
       >x</a
-      ><a name="1703"
+      ><a name="1700"
       > </a
-      ><a name="1704" href="Function.html#1932" class="Function Operator"
+      ><a name="1701" href="Function.html#1932" class="Function Operator"
       >&#10216;</a
+      ><a name="1702"
+      > </a
+      ><a name="1703" href="Data.Maybe.html#1458" class="Datatype"
+      >Eq</a
       ><a name="1705"
       > </a
-      ><a name="1706" href="Data.Maybe.html#1461" class="Datatype"
-      >Eq</a
-      ><a name="1708"
-      > </a
-      ><a name="1709" href="Data.Maybe.html#1658" class="Bound Operator"
+      ><a name="1706" href="Data.Maybe.html#1655" class="Bound Operator"
       >_&#8776;_</a
-      ><a name="1712"
+      ><a name="1709"
       > </a
-      ><a name="1713" href="Function.html#1932" class="Function Operator"
+      ><a name="1710" href="Function.html#1932" class="Function Operator"
       >&#10217;</a
-      ><a name="1714"
+      ><a name="1711"
       > </a
-      ><a name="1715" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="1712" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="1719"
+      ><a name="1716"
       > </a
-      ><a name="1720" href="Data.Maybe.html#1676" class="Bound"
+      ><a name="1717" href="Data.Maybe.html#1673" class="Bound"
       >y</a
-      ><a name="1721"
+      ><a name="1718"
       > </a
-      ><a name="1722" class="Symbol"
+      ><a name="1719" class="Symbol"
       >&#8594;</a
-      ><a name="1723"
+      ><a name="1720"
       > </a
-      ><a name="1724" href="Data.Maybe.html#1674" class="Bound"
+      ><a name="1721" href="Data.Maybe.html#1671" class="Bound"
       >x</a
-      ><a name="1725"
+      ><a name="1722"
       > </a
-      ><a name="1726" href="Data.Maybe.html#1658" class="Bound Operator"
+      ><a name="1723" href="Data.Maybe.html#1655" class="Bound Operator"
       >&#8776;</a
-      ><a name="1727"
+      ><a name="1724"
       > </a
-      ><a name="1728" href="Data.Maybe.html#1676" class="Bound"
+      ><a name="1725" href="Data.Maybe.html#1673" class="Bound"
       >y</a
-      ><a name="1729"
+      ><a name="1726"
       >
 </a
-      ><a name="1730" href="Data.Maybe.html#1625" class="Function"
+      ><a name="1727" href="Data.Maybe.html#1622" class="Function"
       >drop-just</a
-      ><a name="1739"
+      ><a name="1736"
       > </a
-      ><a name="1740" class="Symbol"
+      ><a name="1737" class="Symbol"
       >(</a
-      ><a name="1741" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="1738" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="1745"
+      ><a name="1742"
       > </a
-      ><a name="1746" href="Data.Maybe.html#1746" class="Bound"
+      ><a name="1743" href="Data.Maybe.html#1743" class="Bound"
       >x&#8776;y</a
-      ><a name="1749" class="Symbol"
+      ><a name="1746" class="Symbol"
       >)</a
-      ><a name="1750"
+      ><a name="1747"
       > </a
-      ><a name="1751" class="Symbol"
+      ><a name="1748" class="Symbol"
       >=</a
-      ><a name="1752"
+      ><a name="1749"
       > </a
-      ><a name="1753" href="Data.Maybe.html#1746" class="Bound"
+      ><a name="1750" href="Data.Maybe.html#1743" class="Bound"
       >x&#8776;y</a
-      ><a name="1756"
+      ><a name="1753"
       >
 
 </a
-      ><a name="1758" href="Data.Maybe.html#1758" class="Function"
+      ><a name="1755" href="Data.Maybe.html#1755" class="Function"
       >setoid</a
-      ><a name="1764"
+      ><a name="1761"
       > </a
-      ><a name="1765" class="Symbol"
+      ><a name="1762" class="Symbol"
       >:</a
-      ><a name="1766"
+      ><a name="1763"
       > </a
-      ><a name="1767" class="Symbol"
+      ><a name="1764" class="Symbol"
       >&#8704;</a
-      ><a name="1768"
+      ><a name="1765"
       > </a
-      ><a name="1769" class="Symbol"
+      ><a name="1766" class="Symbol"
       >{</a
-      ><a name="1770" href="Data.Maybe.html#1770" class="Bound"
+      ><a name="1767" href="Data.Maybe.html#1767" class="Bound"
       >&#8467;&#8321;</a
-      ><a name="1772"
+      ><a name="1769"
       > </a
-      ><a name="1773" href="Data.Maybe.html#1773" class="Bound"
+      ><a name="1770" href="Data.Maybe.html#1770" class="Bound"
       >&#8467;&#8322;</a
-      ><a name="1775" class="Symbol"
+      ><a name="1772" class="Symbol"
       >}</a
-      ><a name="1776"
+      ><a name="1773"
       > </a
-      ><a name="1777" class="Symbol"
+      ><a name="1774" class="Symbol"
       >&#8594;</a
-      ><a name="1778"
+      ><a name="1775"
       > </a
-      ><a name="1779" href="Relation.Binary.html#1852" class="Record"
+      ><a name="1776" href="Relation.Binary.html#1852" class="Record"
       >Setoid</a
+      ><a name="1782"
+      > </a
+      ><a name="1783" href="Data.Maybe.html#1767" class="Bound"
+      >&#8467;&#8321;</a
       ><a name="1785"
       > </a
       ><a name="1786" href="Data.Maybe.html#1770" class="Bound"
-      >&#8467;&#8321;</a
+      >&#8467;&#8322;</a
       ><a name="1788"
       > </a
-      ><a name="1789" href="Data.Maybe.html#1773" class="Bound"
-      >&#8467;&#8322;</a
-      ><a name="1791"
-      > </a
-      ><a name="1792" class="Symbol"
+      ><a name="1789" class="Symbol"
       >&#8594;</a
-      ><a name="1793"
+      ><a name="1790"
       > </a
-      ><a name="1794" href="Relation.Binary.html#1852" class="Record"
+      ><a name="1791" href="Relation.Binary.html#1852" class="Record"
       >Setoid</a
-      ><a name="1800"
+      ><a name="1797"
       > </a
-      ><a name="1801" class="Symbol"
+      ><a name="1798" class="Symbol"
       >_</a
-      ><a name="1802"
+      ><a name="1799"
       > </a
-      ><a name="1803" class="Symbol"
+      ><a name="1800" class="Symbol"
       >_</a
-      ><a name="1804"
+      ><a name="1801"
       >
 </a
-      ><a name="1805" href="Data.Maybe.html#1758" class="Function"
+      ><a name="1802" href="Data.Maybe.html#1755" class="Function"
       >setoid</a
-      ><a name="1811"
+      ><a name="1808"
       > </a
-      ><a name="1812" href="Data.Maybe.html#1812" class="Bound"
+      ><a name="1809" href="Data.Maybe.html#1809" class="Bound"
       >S</a
-      ><a name="1813"
+      ><a name="1810"
       > </a
-      ><a name="1814" class="Symbol"
+      ><a name="1811" class="Symbol"
       >=</a
-      ><a name="1815"
+      ><a name="1812"
       > </a
-      ><a name="1816" class="Keyword"
+      ><a name="1813" class="Keyword"
       >record</a
-      ><a name="1822"
+      ><a name="1819"
       >
   </a
-      ><a name="1825" class="Symbol"
+      ><a name="1822" class="Symbol"
       >{</a
-      ><a name="1826"
+      ><a name="1823"
       > </a
-      ><a name="1827" class="Field"
+      ><a name="1824" class="Field"
       >Carrier</a
-      ><a name="1834"
+      ><a name="1831"
       >       </a
-      ><a name="1841" class="Symbol"
+      ><a name="1838" class="Symbol"
       >=</a
-      ><a name="1842"
+      ><a name="1839"
       > </a
-      ><a name="1843" href="Data.Maybe.Minimal.html#338" class="Datatype"
+      ><a name="1840" href="Data.Maybe.Base.html#335" class="Datatype"
       >Maybe</a
-      ><a name="1848"
+      ><a name="1845"
       > </a
-      ><a name="1849" href="Relation.Binary.html#1915" class="Function"
+      ><a name="1846" href="Relation.Binary.html#1915" class="Function"
       >S.Carrier</a
-      ><a name="1858"
+      ><a name="1855"
       >
   </a
-      ><a name="1861" class="Symbol"
+      ><a name="1858" class="Symbol"
       >;</a
-      ><a name="1862"
+      ><a name="1859"
       > </a
-      ><a name="1863" class="Field Operator"
+      ><a name="1860" class="Field Operator"
       >_&#8776;_</a
-      ><a name="1866"
+      ><a name="1863"
       >           </a
-      ><a name="1877" class="Symbol"
+      ><a name="1874" class="Symbol"
       >=</a
-      ><a name="1878"
+      ><a name="1875"
       > </a
-      ><a name="1879" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="1876" href="Data.Maybe.html#2006" class="Function Operator"
       >_&#8776;_</a
-      ><a name="1882"
+      ><a name="1879"
       >
   </a
-      ><a name="1885" class="Symbol"
+      ><a name="1882" class="Symbol"
       >;</a
-      ><a name="1886"
+      ><a name="1883"
       > </a
-      ><a name="1887" class="Field"
+      ><a name="1884" class="Field"
       >isEquivalence</a
-      ><a name="1900"
+      ><a name="1897"
       > </a
-      ><a name="1901" class="Symbol"
+      ><a name="1898" class="Symbol"
       >=</a
-      ><a name="1902"
+      ><a name="1899"
       > </a
-      ><a name="1903" class="Keyword"
+      ><a name="1900" class="Keyword"
       >record</a
-      ><a name="1909"
+      ><a name="1906"
       >
     </a
-      ><a name="1914" class="Symbol"
+      ><a name="1911" class="Symbol"
       >{</a
-      ><a name="1915"
+      ><a name="1912"
       > </a
-      ><a name="1916" class="Field"
+      ><a name="1913" class="Field"
       >refl</a
-      ><a name="1920"
+      ><a name="1917"
       >  </a
-      ><a name="1922" class="Symbol"
+      ><a name="1919" class="Symbol"
       >=</a
-      ><a name="1923"
+      ><a name="1920"
       > </a
-      ><a name="1924" href="Data.Maybe.html#2027" class="Function"
+      ><a name="1921" href="Data.Maybe.html#2024" class="Function"
       >refl</a
-      ><a name="1928"
+      ><a name="1925"
       >
     </a
-      ><a name="1933" class="Symbol"
+      ><a name="1930" class="Symbol"
       >;</a
-      ><a name="1934"
+      ><a name="1931"
       > </a
-      ><a name="1935" class="Field"
+      ><a name="1932" class="Field"
       >sym</a
-      ><a name="1938"
+      ><a name="1935"
       >   </a
-      ><a name="1941" class="Symbol"
+      ><a name="1938" class="Symbol"
       >=</a
-      ><a name="1942"
+      ><a name="1939"
       > </a
-      ><a name="1943" href="Data.Maybe.html#2109" class="Function"
+      ><a name="1940" href="Data.Maybe.html#2106" class="Function"
       >sym</a
-      ><a name="1946"
+      ><a name="1943"
       >
     </a
-      ><a name="1951" class="Symbol"
+      ><a name="1948" class="Symbol"
       >;</a
-      ><a name="1952"
+      ><a name="1949"
       > </a
-      ><a name="1953" class="Field"
+      ><a name="1950" class="Field"
       >trans</a
-      ><a name="1958"
+      ><a name="1955"
       > </a
-      ><a name="1959" class="Symbol"
+      ><a name="1956" class="Symbol"
       >=</a
-      ><a name="1960"
+      ><a name="1957"
       > </a
-      ><a name="1961" href="Data.Maybe.html#2205" class="Function"
+      ><a name="1958" href="Data.Maybe.html#2202" class="Function"
       >trans</a
-      ><a name="1966"
+      ><a name="1963"
       >
     </a
-      ><a name="1971" class="Symbol"
+      ><a name="1968" class="Symbol"
       >}</a
-      ><a name="1972"
+      ><a name="1969"
       >
   </a
-      ><a name="1975" class="Symbol"
+      ><a name="1972" class="Symbol"
       >}</a
-      ><a name="1976"
+      ><a name="1973"
       >
   </a
-      ><a name="1979" class="Keyword"
+      ><a name="1976" class="Keyword"
       >where</a
-      ><a name="1984"
+      ><a name="1981"
       >
   </a
-      ><a name="1987" class="Keyword"
+      ><a name="1984" class="Keyword"
       >module</a
-      ><a name="1993"
+      ><a name="1990"
       > </a
-      ><a name="1994" href="Data.Maybe.html#1994" class="Module"
+      ><a name="1991" href="Data.Maybe.html#1991" class="Module"
       >S</a
-      ><a name="1995"
+      ><a name="1992"
       > </a
-      ><a name="1996" class="Symbol"
+      ><a name="1993" class="Symbol"
       >=</a
-      ><a name="1997"
+      ><a name="1994"
       > </a
-      ><a name="1998" href="Relation.Binary.html#1852" class="Module"
+      ><a name="1995" href="Relation.Binary.html#1852" class="Module"
       >Setoid</a
-      ><a name="2004"
+      ><a name="2001"
       > </a
-      ><a name="2005" href="Data.Maybe.html#1812" class="Bound"
+      ><a name="2002" href="Data.Maybe.html#1809" class="Bound"
       >S</a
-      ><a name="2006"
+      ><a name="2003"
       >
   </a
-      ><a name="2009" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2006" href="Data.Maybe.html#2006" class="Function Operator"
       >_&#8776;_</a
-      ><a name="2012"
+      ><a name="2009"
       > </a
-      ><a name="2013" class="Symbol"
+      ><a name="2010" class="Symbol"
       >=</a
+      ><a name="2011"
+      > </a
+      ><a name="2012" href="Data.Maybe.html#1458" class="Datatype"
+      >Eq</a
       ><a name="2014"
       > </a
-      ><a name="2015" href="Data.Maybe.html#1461" class="Datatype"
-      >Eq</a
-      ><a name="2017"
-      > </a
-      ><a name="2018" href="Relation.Binary.html#1941" class="Function Operator"
+      ><a name="2015" href="Relation.Binary.html#1941" class="Function Operator"
       >S._&#8776;_</a
-      ><a name="2023"
+      ><a name="2020"
       >
 
   </a
-      ><a name="2027" href="Data.Maybe.html#2027" class="Function"
+      ><a name="2024" href="Data.Maybe.html#2024" class="Function"
       >refl</a
-      ><a name="2031"
+      ><a name="2028"
       > </a
-      ><a name="2032" class="Symbol"
+      ><a name="2029" class="Symbol"
       >:</a
-      ><a name="2033"
+      ><a name="2030"
       > </a
-      ><a name="2034" class="Symbol"
+      ><a name="2031" class="Symbol"
       >&#8704;</a
-      ><a name="2035"
+      ><a name="2032"
       > </a
-      ><a name="2036" class="Symbol"
+      ><a name="2033" class="Symbol"
       >{</a
-      ><a name="2037" href="Data.Maybe.html#2037" class="Bound"
+      ><a name="2034" href="Data.Maybe.html#2034" class="Bound"
       >x</a
-      ><a name="2038" class="Symbol"
+      ><a name="2035" class="Symbol"
       >}</a
-      ><a name="2039"
+      ><a name="2036"
       > </a
-      ><a name="2040" class="Symbol"
+      ><a name="2037" class="Symbol"
       >&#8594;</a
-      ><a name="2041"
+      ><a name="2038"
       > </a
-      ><a name="2042" href="Data.Maybe.html#2037" class="Bound"
+      ><a name="2039" href="Data.Maybe.html#2034" class="Bound"
       >x</a
-      ><a name="2043"
+      ><a name="2040"
       > </a
-      ><a name="2044" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2041" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2045"
+      ><a name="2042"
       > </a
-      ><a name="2046" href="Data.Maybe.html#2037" class="Bound"
+      ><a name="2043" href="Data.Maybe.html#2034" class="Bound"
       >x</a
-      ><a name="2047"
+      ><a name="2044"
       >
   </a
-      ><a name="2050" href="Data.Maybe.html#2027" class="Function"
+      ><a name="2047" href="Data.Maybe.html#2024" class="Function"
       >refl</a
-      ><a name="2054"
+      ><a name="2051"
       > </a
-      ><a name="2055" class="Symbol"
+      ><a name="2052" class="Symbol"
       >{</a
-      ><a name="2056" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="2053" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
+      ><a name="2057"
+      > </a
+      ><a name="2058" href="Data.Maybe.html#2058" class="Bound"
+      >x</a
+      ><a name="2059" class="Symbol"
+      >}</a
       ><a name="2060"
-      > </a
-      ><a name="2061" href="Data.Maybe.html#2061" class="Bound"
-      >x</a
-      ><a name="2062" class="Symbol"
-      >}</a
-      ><a name="2063"
       >  </a
-      ><a name="2065" class="Symbol"
+      ><a name="2062" class="Symbol"
       >=</a
-      ><a name="2066"
+      ><a name="2063"
       > </a
-      ><a name="2067" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2064" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2071"
+      ><a name="2068"
       > </a
-      ><a name="2072" href="Relation.Binary.Core.html#5185" class="Function"
+      ><a name="2069" href="Relation.Binary.Core.html#5185" class="Function"
       >S.refl</a
-      ><a name="2078"
+      ><a name="2075"
       >
   </a
-      ><a name="2081" href="Data.Maybe.html#2027" class="Function"
+      ><a name="2078" href="Data.Maybe.html#2024" class="Function"
       >refl</a
-      ><a name="2085"
+      ><a name="2082"
       > </a
-      ><a name="2086" class="Symbol"
+      ><a name="2083" class="Symbol"
       >{</a
-      ><a name="2087" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="2084" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="2094" class="Symbol"
+      ><a name="2091" class="Symbol"
       >}</a
-      ><a name="2095"
+      ><a name="2092"
       > </a
-      ><a name="2096" class="Symbol"
+      ><a name="2093" class="Symbol"
       >=</a
-      ><a name="2097"
+      ><a name="2094"
       > </a
-      ><a name="2098" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2095" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2105"
+      ><a name="2102"
       >
 
   </a
-      ><a name="2109" href="Data.Maybe.html#2109" class="Function"
+      ><a name="2106" href="Data.Maybe.html#2106" class="Function"
       >sym</a
-      ><a name="2112"
+      ><a name="2109"
       > </a
-      ><a name="2113" class="Symbol"
+      ><a name="2110" class="Symbol"
       >:</a
-      ><a name="2114"
+      ><a name="2111"
       > </a
-      ><a name="2115" class="Symbol"
+      ><a name="2112" class="Symbol"
       >&#8704;</a
+      ><a name="2113"
+      > </a
+      ><a name="2114" class="Symbol"
+      >{</a
+      ><a name="2115" href="Data.Maybe.html#2115" class="Bound"
+      >x</a
       ><a name="2116"
       > </a
-      ><a name="2117" class="Symbol"
-      >{</a
-      ><a name="2118" href="Data.Maybe.html#2118" class="Bound"
-      >x</a
+      ><a name="2117" href="Data.Maybe.html#2117" class="Bound"
+      >y</a
+      ><a name="2118" class="Symbol"
+      >}</a
       ><a name="2119"
       > </a
-      ><a name="2120" href="Data.Maybe.html#2120" class="Bound"
-      >y</a
-      ><a name="2121" class="Symbol"
-      >}</a
-      ><a name="2122"
-      > </a
-      ><a name="2123" class="Symbol"
+      ><a name="2120" class="Symbol"
       >&#8594;</a
-      ><a name="2124"
+      ><a name="2121"
       > </a
-      ><a name="2125" href="Data.Maybe.html#2118" class="Bound"
+      ><a name="2122" href="Data.Maybe.html#2115" class="Bound"
       >x</a
-      ><a name="2126"
+      ><a name="2123"
       > </a
-      ><a name="2127" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2124" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2128"
+      ><a name="2125"
       > </a
-      ><a name="2129" href="Data.Maybe.html#2120" class="Bound"
+      ><a name="2126" href="Data.Maybe.html#2117" class="Bound"
       >y</a
-      ><a name="2130"
+      ><a name="2127"
       > </a
-      ><a name="2131" class="Symbol"
+      ><a name="2128" class="Symbol"
       >&#8594;</a
-      ><a name="2132"
+      ><a name="2129"
       > </a
-      ><a name="2133" href="Data.Maybe.html#2120" class="Bound"
+      ><a name="2130" href="Data.Maybe.html#2117" class="Bound"
       >y</a
-      ><a name="2134"
+      ><a name="2131"
       > </a
-      ><a name="2135" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2132" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2136"
+      ><a name="2133"
       > </a
-      ><a name="2137" href="Data.Maybe.html#2118" class="Bound"
+      ><a name="2134" href="Data.Maybe.html#2115" class="Bound"
       >x</a
-      ><a name="2138"
+      ><a name="2135"
       >
   </a
-      ><a name="2141" href="Data.Maybe.html#2109" class="Function"
+      ><a name="2138" href="Data.Maybe.html#2106" class="Function"
       >sym</a
-      ><a name="2144"
+      ><a name="2141"
       > </a
-      ><a name="2145" class="Symbol"
+      ><a name="2142" class="Symbol"
       >(</a
-      ><a name="2146" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2143" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2150"
+      ><a name="2147"
       > </a
-      ><a name="2151" href="Data.Maybe.html#2151" class="Bound"
+      ><a name="2148" href="Data.Maybe.html#2148" class="Bound"
       >x&#8776;y</a
-      ><a name="2154" class="Symbol"
+      ><a name="2151" class="Symbol"
       >)</a
-      ><a name="2155"
+      ><a name="2152"
       > </a
-      ><a name="2156" class="Symbol"
+      ><a name="2153" class="Symbol"
       >=</a
-      ><a name="2157"
+      ><a name="2154"
       > </a
-      ><a name="2158" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2155" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2162"
+      ><a name="2159"
       > </a
-      ><a name="2163" class="Symbol"
+      ><a name="2160" class="Symbol"
       >(</a
-      ><a name="2164" href="Relation.Binary.Core.html#5211" class="Function"
+      ><a name="2161" href="Relation.Binary.Core.html#5211" class="Function"
       >S.sym</a
-      ><a name="2169"
+      ><a name="2166"
       > </a
-      ><a name="2170" href="Data.Maybe.html#2151" class="Bound"
+      ><a name="2167" href="Data.Maybe.html#2148" class="Bound"
       >x&#8776;y</a
-      ><a name="2173" class="Symbol"
+      ><a name="2170" class="Symbol"
       >)</a
-      ><a name="2174"
+      ><a name="2171"
       >
   </a
-      ><a name="2177" href="Data.Maybe.html#2109" class="Function"
+      ><a name="2174" href="Data.Maybe.html#2106" class="Function"
       >sym</a
-      ><a name="2180"
+      ><a name="2177"
       > </a
-      ><a name="2181" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2178" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2188"
+      ><a name="2185"
       >    </a
-      ><a name="2192" class="Symbol"
+      ><a name="2189" class="Symbol"
       >=</a
-      ><a name="2193"
+      ><a name="2190"
       > </a
-      ><a name="2194" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2191" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2201"
+      ><a name="2198"
       >
 
   </a
-      ><a name="2205" href="Data.Maybe.html#2205" class="Function"
+      ><a name="2202" href="Data.Maybe.html#2202" class="Function"
       >trans</a
-      ><a name="2210"
+      ><a name="2207"
       > </a
-      ><a name="2211" class="Symbol"
+      ><a name="2208" class="Symbol"
       >:</a
-      ><a name="2212"
+      ><a name="2209"
       > </a
-      ><a name="2213" class="Symbol"
+      ><a name="2210" class="Symbol"
       >&#8704;</a
+      ><a name="2211"
+      > </a
+      ><a name="2212" class="Symbol"
+      >{</a
+      ><a name="2213" href="Data.Maybe.html#2213" class="Bound"
+      >x</a
       ><a name="2214"
       > </a
-      ><a name="2215" class="Symbol"
-      >{</a
-      ><a name="2216" href="Data.Maybe.html#2216" class="Bound"
-      >x</a
-      ><a name="2217"
-      > </a
-      ><a name="2218" href="Data.Maybe.html#2218" class="Bound"
+      ><a name="2215" href="Data.Maybe.html#2215" class="Bound"
       >y</a
+      ><a name="2216"
+      > </a
+      ><a name="2217" href="Data.Maybe.html#2217" class="Bound"
+      >z</a
+      ><a name="2218" class="Symbol"
+      >}</a
       ><a name="2219"
       > </a
-      ><a name="2220" href="Data.Maybe.html#2220" class="Bound"
-      >z</a
-      ><a name="2221" class="Symbol"
-      >}</a
-      ><a name="2222"
-      > </a
-      ><a name="2223" class="Symbol"
+      ><a name="2220" class="Symbol"
       >&#8594;</a
-      ><a name="2224"
+      ><a name="2221"
       > </a
-      ><a name="2225" href="Data.Maybe.html#2216" class="Bound"
+      ><a name="2222" href="Data.Maybe.html#2213" class="Bound"
       >x</a
-      ><a name="2226"
+      ><a name="2223"
       > </a
-      ><a name="2227" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2224" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2228"
+      ><a name="2225"
       > </a
-      ><a name="2229" href="Data.Maybe.html#2218" class="Bound"
+      ><a name="2226" href="Data.Maybe.html#2215" class="Bound"
       >y</a
-      ><a name="2230"
+      ><a name="2227"
       > </a
-      ><a name="2231" class="Symbol"
+      ><a name="2228" class="Symbol"
       >&#8594;</a
-      ><a name="2232"
+      ><a name="2229"
       > </a
-      ><a name="2233" href="Data.Maybe.html#2218" class="Bound"
+      ><a name="2230" href="Data.Maybe.html#2215" class="Bound"
       >y</a
-      ><a name="2234"
+      ><a name="2231"
       > </a
-      ><a name="2235" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2232" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2236"
+      ><a name="2233"
       > </a
-      ><a name="2237" href="Data.Maybe.html#2220" class="Bound"
+      ><a name="2234" href="Data.Maybe.html#2217" class="Bound"
       >z</a
-      ><a name="2238"
+      ><a name="2235"
       > </a
-      ><a name="2239" class="Symbol"
+      ><a name="2236" class="Symbol"
       >&#8594;</a
-      ><a name="2240"
+      ><a name="2237"
       > </a
-      ><a name="2241" href="Data.Maybe.html#2216" class="Bound"
+      ><a name="2238" href="Data.Maybe.html#2213" class="Bound"
       >x</a
-      ><a name="2242"
+      ><a name="2239"
       > </a
-      ><a name="2243" href="Data.Maybe.html#2009" class="Function Operator"
+      ><a name="2240" href="Data.Maybe.html#2006" class="Function Operator"
       >&#8776;</a
-      ><a name="2244"
+      ><a name="2241"
       > </a
-      ><a name="2245" href="Data.Maybe.html#2220" class="Bound"
+      ><a name="2242" href="Data.Maybe.html#2217" class="Bound"
       >z</a
-      ><a name="2246"
+      ><a name="2243"
       >
   </a
-      ><a name="2249" href="Data.Maybe.html#2205" class="Function"
+      ><a name="2246" href="Data.Maybe.html#2202" class="Function"
       >trans</a
-      ><a name="2254"
+      ><a name="2251"
       > </a
-      ><a name="2255" class="Symbol"
+      ><a name="2252" class="Symbol"
       >(</a
-      ><a name="2256" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2253" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2260"
+      ><a name="2257"
       > </a
-      ><a name="2261" href="Data.Maybe.html#2261" class="Bound"
+      ><a name="2258" href="Data.Maybe.html#2258" class="Bound"
       >x&#8776;y</a
-      ><a name="2264" class="Symbol"
+      ><a name="2261" class="Symbol"
       >)</a
-      ><a name="2265"
+      ><a name="2262"
       > </a
-      ><a name="2266" class="Symbol"
+      ><a name="2263" class="Symbol"
       >(</a
-      ><a name="2267" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2264" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2271"
+      ><a name="2268"
       > </a
-      ><a name="2272" href="Data.Maybe.html#2272" class="Bound"
+      ><a name="2269" href="Data.Maybe.html#2269" class="Bound"
       >y&#8776;z</a
-      ><a name="2275" class="Symbol"
+      ><a name="2272" class="Symbol"
       >)</a
-      ><a name="2276"
+      ><a name="2273"
       > </a
-      ><a name="2277" class="Symbol"
+      ><a name="2274" class="Symbol"
       >=</a
-      ><a name="2278"
+      ><a name="2275"
       > </a
-      ><a name="2279" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2276" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2283"
+      ><a name="2280"
       > </a
-      ><a name="2284" class="Symbol"
+      ><a name="2281" class="Symbol"
       >(</a
-      ><a name="2285" href="Relation.Binary.Core.html#5237" class="Function"
+      ><a name="2282" href="Relation.Binary.Core.html#5237" class="Function"
       >S.trans</a
-      ><a name="2292"
+      ><a name="2289"
       > </a
-      ><a name="2293" href="Data.Maybe.html#2261" class="Bound"
+      ><a name="2290" href="Data.Maybe.html#2258" class="Bound"
       >x&#8776;y</a
-      ><a name="2296"
+      ><a name="2293"
       > </a
-      ><a name="2297" href="Data.Maybe.html#2272" class="Bound"
+      ><a name="2294" href="Data.Maybe.html#2269" class="Bound"
       >y&#8776;z</a
-      ><a name="2300" class="Symbol"
+      ><a name="2297" class="Symbol"
       >)</a
-      ><a name="2301"
+      ><a name="2298"
       >
   </a
-      ><a name="2304" href="Data.Maybe.html#2205" class="Function"
+      ><a name="2301" href="Data.Maybe.html#2202" class="Function"
       >trans</a
-      ><a name="2309"
+      ><a name="2306"
       > </a
-      ><a name="2310" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2307" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2317"
+      ><a name="2314"
       >    </a
-      ><a name="2321" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2318" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2328"
+      ><a name="2325"
       >    </a
-      ><a name="2332" class="Symbol"
+      ><a name="2329" class="Symbol"
       >=</a
-      ><a name="2333"
+      ><a name="2330"
       > </a
-      ><a name="2334" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2331" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2341"
+      ><a name="2338"
       >
 
 </a
-      ><a name="2343" href="Data.Maybe.html#2343" class="Function"
+      ><a name="2340" href="Data.Maybe.html#2340" class="Function"
       >decSetoid</a
-      ><a name="2352"
+      ><a name="2349"
       > </a
-      ><a name="2353" class="Symbol"
+      ><a name="2350" class="Symbol"
       >:</a
-      ><a name="2354"
+      ><a name="2351"
       > </a
-      ><a name="2355" class="Symbol"
+      ><a name="2352" class="Symbol"
       >&#8704;</a
-      ><a name="2356"
+      ><a name="2353"
       > </a
-      ><a name="2357" class="Symbol"
+      ><a name="2354" class="Symbol"
       >{</a
-      ><a name="2358" href="Data.Maybe.html#2358" class="Bound"
+      ><a name="2355" href="Data.Maybe.html#2355" class="Bound"
       >&#8467;&#8321;</a
-      ><a name="2360"
+      ><a name="2357"
       > </a
-      ><a name="2361" href="Data.Maybe.html#2361" class="Bound"
+      ><a name="2358" href="Data.Maybe.html#2358" class="Bound"
       >&#8467;&#8322;</a
-      ><a name="2363" class="Symbol"
+      ><a name="2360" class="Symbol"
       >}</a
-      ><a name="2364"
+      ><a name="2361"
       > </a
-      ><a name="2365" class="Symbol"
+      ><a name="2362" class="Symbol"
       >&#8594;</a
-      ><a name="2366"
+      ><a name="2363"
       > </a
-      ><a name="2367" href="Relation.Binary.html#2921" class="Record"
+      ><a name="2364" href="Relation.Binary.html#2921" class="Record"
       >DecSetoid</a
+      ><a name="2373"
+      > </a
+      ><a name="2374" href="Data.Maybe.html#2355" class="Bound"
+      >&#8467;&#8321;</a
       ><a name="2376"
       > </a
       ><a name="2377" href="Data.Maybe.html#2358" class="Bound"
-      >&#8467;&#8321;</a
+      >&#8467;&#8322;</a
       ><a name="2379"
       > </a
-      ><a name="2380" href="Data.Maybe.html#2361" class="Bound"
-      >&#8467;&#8322;</a
-      ><a name="2382"
-      > </a
-      ><a name="2383" class="Symbol"
+      ><a name="2380" class="Symbol"
       >&#8594;</a
-      ><a name="2384"
+      ><a name="2381"
       > </a
-      ><a name="2385" href="Relation.Binary.html#2921" class="Record"
+      ><a name="2382" href="Relation.Binary.html#2921" class="Record"
       >DecSetoid</a
-      ><a name="2394"
+      ><a name="2391"
       > </a
-      ><a name="2395" class="Symbol"
+      ><a name="2392" class="Symbol"
       >_</a
-      ><a name="2396"
+      ><a name="2393"
       > </a
-      ><a name="2397" class="Symbol"
+      ><a name="2394" class="Symbol"
       >_</a
-      ><a name="2398"
+      ><a name="2395"
       >
 </a
-      ><a name="2399" href="Data.Maybe.html#2343" class="Function"
+      ><a name="2396" href="Data.Maybe.html#2340" class="Function"
       >decSetoid</a
-      ><a name="2408"
+      ><a name="2405"
       > </a
-      ><a name="2409" href="Data.Maybe.html#2409" class="Bound"
+      ><a name="2406" href="Data.Maybe.html#2406" class="Bound"
       >D</a
-      ><a name="2410"
+      ><a name="2407"
       > </a
-      ><a name="2411" class="Symbol"
+      ><a name="2408" class="Symbol"
       >=</a
-      ><a name="2412"
+      ><a name="2409"
       > </a
-      ><a name="2413" class="Keyword"
+      ><a name="2410" class="Keyword"
       >record</a
-      ><a name="2419"
+      ><a name="2416"
       >
   </a
-      ><a name="2422" class="Symbol"
+      ><a name="2419" class="Symbol"
       >{</a
-      ><a name="2423"
+      ><a name="2420"
       > </a
-      ><a name="2424" class="Field"
+      ><a name="2421" class="Field"
       >isDecEquivalence</a
-      ><a name="2440"
+      ><a name="2437"
       > </a
-      ><a name="2441" class="Symbol"
+      ><a name="2438" class="Symbol"
       >=</a
-      ><a name="2442"
+      ><a name="2439"
       > </a
-      ><a name="2443" class="Keyword"
+      ><a name="2440" class="Keyword"
       >record</a
-      ><a name="2449"
+      ><a name="2446"
       >
     </a
-      ><a name="2454" class="Symbol"
+      ><a name="2451" class="Symbol"
       >{</a
-      ><a name="2455"
+      ><a name="2452"
       > </a
-      ><a name="2456" class="Field"
+      ><a name="2453" class="Field"
       >isEquivalence</a
-      ><a name="2469"
+      ><a name="2466"
       > </a
-      ><a name="2470" class="Symbol"
+      ><a name="2467" class="Symbol"
       >=</a
-      ><a name="2471"
+      ><a name="2468"
       > </a
-      ><a name="2472" href="Relation.Binary.html#1975" class="Field"
+      ><a name="2469" href="Relation.Binary.html#1975" class="Field"
       >Setoid.isEquivalence</a
-      ><a name="2492"
+      ><a name="2489"
       > </a
-      ><a name="2493" class="Symbol"
+      ><a name="2490" class="Symbol"
       >(</a
-      ><a name="2494" href="Data.Maybe.html#1758" class="Function"
+      ><a name="2491" href="Data.Maybe.html#1755" class="Function"
       >setoid</a
-      ><a name="2500"
+      ><a name="2497"
       > </a
-      ><a name="2501" class="Symbol"
+      ><a name="2498" class="Symbol"
       >(</a
-      ><a name="2502" href="Relation.Binary.html#3145" class="Function"
+      ><a name="2499" href="Relation.Binary.html#3145" class="Function"
       >DecSetoid.setoid</a
-      ><a name="2518"
+      ><a name="2515"
       > </a
-      ><a name="2519" href="Data.Maybe.html#2409" class="Bound"
+      ><a name="2516" href="Data.Maybe.html#2406" class="Bound"
       >D</a
-      ><a name="2520" class="Symbol"
+      ><a name="2517" class="Symbol"
       >))</a
-      ><a name="2522"
+      ><a name="2519"
       >
     </a
-      ><a name="2527" class="Symbol"
+      ><a name="2524" class="Symbol"
       >;</a
-      ><a name="2528"
+      ><a name="2525"
       > </a
-      ><a name="2529" class="Field Operator"
+      ><a name="2526" class="Field Operator"
       >_&#8799;_</a
-      ><a name="2532"
+      ><a name="2529"
       >           </a
-      ><a name="2543" class="Symbol"
+      ><a name="2540" class="Symbol"
       >=</a
-      ><a name="2544"
+      ><a name="2541"
       > </a
-      ><a name="2545" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2542" href="Data.Maybe.html#2566" class="Function Operator"
       >_&#8799;_</a
-      ><a name="2548"
+      ><a name="2545"
       >
     </a
-      ><a name="2553" class="Symbol"
+      ><a name="2550" class="Symbol"
       >}</a
-      ><a name="2554"
+      ><a name="2551"
       >
   </a
-      ><a name="2557" class="Symbol"
+      ><a name="2554" class="Symbol"
       >}</a
-      ><a name="2558"
+      ><a name="2555"
       >
   </a
-      ><a name="2561" class="Keyword"
+      ><a name="2558" class="Keyword"
       >where</a
-      ><a name="2566"
+      ><a name="2563"
       >
   </a
-      ><a name="2569" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2566" href="Data.Maybe.html#2566" class="Function Operator"
       >_&#8799;_</a
-      ><a name="2572"
+      ><a name="2569"
       > </a
-      ><a name="2573" class="Symbol"
+      ><a name="2570" class="Symbol"
       >:</a
-      ><a name="2574"
+      ><a name="2571"
       > </a
-      ><a name="2575" href="Relation.Binary.Core.html#3511" class="Function"
+      ><a name="2572" href="Relation.Binary.Core.html#3511" class="Function"
       >B.Decidable</a
-      ><a name="2586"
+      ><a name="2583"
       > </a
-      ><a name="2587" class="Symbol"
+      ><a name="2584" class="Symbol"
       >(</a
-      ><a name="2588" href="Data.Maybe.html#1461" class="Datatype"
+      ><a name="2585" href="Data.Maybe.html#1458" class="Datatype"
       >Eq</a
-      ><a name="2590"
+      ><a name="2587"
       > </a
-      ><a name="2591" class="Symbol"
+      ><a name="2588" class="Symbol"
       >(</a
-      ><a name="2592" href="Relation.Binary.html#3016" class="Field Operator"
+      ><a name="2589" href="Relation.Binary.html#3016" class="Field Operator"
       >DecSetoid._&#8776;_</a
-      ><a name="2605"
+      ><a name="2602"
       > </a
-      ><a name="2606" href="Data.Maybe.html#2409" class="Bound"
+      ><a name="2603" href="Data.Maybe.html#2406" class="Bound"
       >D</a
-      ><a name="2607" class="Symbol"
+      ><a name="2604" class="Symbol"
       >))</a
-      ><a name="2609"
+      ><a name="2606"
       >
   </a
-      ><a name="2612" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="2609" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="2616"
+      ><a name="2613"
       > </a
-      ><a name="2617" href="Data.Maybe.html#2617" class="Bound"
+      ><a name="2614" href="Data.Maybe.html#2614" class="Bound"
       >x</a
+      ><a name="2615"
+      >  </a
+      ><a name="2617" href="Data.Maybe.html#2566" class="Function Operator"
+      >&#8799;</a
       ><a name="2618"
-      >  </a
-      ><a name="2620" href="Data.Maybe.html#2569" class="Function Operator"
-      >&#8799;</a
-      ><a name="2621"
       > </a
-      ><a name="2622" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="2619" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="2626"
+      ><a name="2623"
       > </a
-      ><a name="2627" href="Data.Maybe.html#2627" class="Bound"
+      ><a name="2624" href="Data.Maybe.html#2624" class="Bound"
       >y</a
-      ><a name="2628"
+      ><a name="2625"
       >  </a
-      ><a name="2630" class="Keyword"
+      ><a name="2627" class="Keyword"
       >with</a
-      ><a name="2634"
+      ><a name="2631"
       > </a
-      ><a name="2635" href="Relation.Binary.html#2840" class="Function Operator"
+      ><a name="2632" href="Relation.Binary.html#2840" class="Function Operator"
       >DecSetoid._&#8799;_</a
-      ><a name="2648"
+      ><a name="2645"
       > </a
-      ><a name="2649" href="Data.Maybe.html#2409" class="Bound"
+      ><a name="2646" href="Data.Maybe.html#2406" class="Bound"
       >D</a
-      ><a name="2650"
+      ><a name="2647"
       > </a
-      ><a name="2651" href="Data.Maybe.html#2617" class="Bound"
+      ><a name="2648" href="Data.Maybe.html#2614" class="Bound"
       >x</a
-      ><a name="2652"
+      ><a name="2649"
       > </a
-      ><a name="2653" href="Data.Maybe.html#2627" class="Bound"
+      ><a name="2650" href="Data.Maybe.html#2624" class="Bound"
       >y</a
-      ><a name="2654"
+      ><a name="2651"
       >
   </a
-      ><a name="2657" class="InductiveConstructor"
+      ><a name="2654" class="InductiveConstructor"
       >just</a
-      ><a name="2661"
+      ><a name="2658"
       > </a
-      ><a name="2662" href="Data.Maybe.html#2662" class="Bound"
+      ><a name="2659" href="Data.Maybe.html#2659" class="Bound"
       >x</a
+      ><a name="2660"
+      >  </a
+      ><a name="2662" href="Data.Maybe.html#2566" class="Function Operator"
+      >&#8799;</a
       ><a name="2663"
-      >  </a
-      ><a name="2665" href="Data.Maybe.html#2569" class="Function Operator"
-      >&#8799;</a
-      ><a name="2666"
       > </a
-      ><a name="2667" class="InductiveConstructor"
+      ><a name="2664" class="InductiveConstructor"
       >just</a
-      ><a name="2671"
+      ><a name="2668"
       > </a
-      ><a name="2672" href="Data.Maybe.html#2672" class="Bound"
+      ><a name="2669" href="Data.Maybe.html#2669" class="Bound"
       >y</a
-      ><a name="2673"
+      ><a name="2670"
       >  </a
-      ><a name="2675" class="Symbol"
+      ><a name="2672" class="Symbol"
       >|</a
-      ><a name="2676"
+      ><a name="2673"
       > </a
-      ><a name="2677" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
+      ><a name="2674" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
       >yes</a
-      ><a name="2680"
+      ><a name="2677"
       > </a
-      ><a name="2681" href="Data.Maybe.html#2681" class="Bound"
+      ><a name="2678" href="Data.Maybe.html#2678" class="Bound"
       >x&#8776;y</a
-      ><a name="2684"
+      ><a name="2681"
       > </a
-      ><a name="2685" class="Symbol"
+      ><a name="2682" class="Symbol"
       >=</a
-      ><a name="2686"
+      ><a name="2683"
       > </a
-      ><a name="2687" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
+      ><a name="2684" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
       >yes</a
-      ><a name="2690"
+      ><a name="2687"
       > </a
-      ><a name="2691" class="Symbol"
+      ><a name="2688" class="Symbol"
       >(</a
-      ><a name="2692" href="Data.Maybe.html#1530" class="InductiveConstructor"
+      ><a name="2689" href="Data.Maybe.html#1527" class="InductiveConstructor"
       >just</a
-      ><a name="2696"
+      ><a name="2693"
       > </a
-      ><a name="2697" href="Data.Maybe.html#2681" class="Bound"
+      ><a name="2694" href="Data.Maybe.html#2678" class="Bound"
       >x&#8776;y</a
-      ><a name="2700" class="Symbol"
+      ><a name="2697" class="Symbol"
       >)</a
-      ><a name="2701"
+      ><a name="2698"
       >
   </a
-      ><a name="2704" class="InductiveConstructor"
+      ><a name="2701" class="InductiveConstructor"
       >just</a
-      ><a name="2708"
+      ><a name="2705"
       > </a
-      ><a name="2709" href="Data.Maybe.html#2709" class="Bound"
+      ><a name="2706" href="Data.Maybe.html#2706" class="Bound"
       >x</a
-      ><a name="2710"
+      ><a name="2707"
       >  </a
-      ><a name="2712" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2709" href="Data.Maybe.html#2566" class="Function Operator"
       >&#8799;</a
-      ><a name="2713"
+      ><a name="2710"
       > </a
-      ><a name="2714" class="InductiveConstructor"
+      ><a name="2711" class="InductiveConstructor"
       >just</a
-      ><a name="2718"
+      ><a name="2715"
       > </a
-      ><a name="2719" href="Data.Maybe.html#2719" class="Bound"
+      ><a name="2716" href="Data.Maybe.html#2716" class="Bound"
       >y</a
-      ><a name="2720"
+      ><a name="2717"
       >  </a
-      ><a name="2722" class="Symbol"
+      ><a name="2719" class="Symbol"
       >|</a
-      ><a name="2723"
+      ><a name="2720"
       > </a
-      ><a name="2724" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      ><a name="2721" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
       >no</a
-      ><a name="2726"
+      ><a name="2723"
       >  </a
-      ><a name="2728" href="Data.Maybe.html#2728" class="Bound"
+      ><a name="2725" href="Data.Maybe.html#2725" class="Bound"
       >x&#8777;y</a
-      ><a name="2731"
+      ><a name="2728"
       > </a
-      ><a name="2732" class="Symbol"
+      ><a name="2729" class="Symbol"
       >=</a
+      ><a name="2730"
+      > </a
+      ><a name="2731" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      >no</a
       ><a name="2733"
       > </a
-      ><a name="2734" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
-      >no</a
-      ><a name="2736"
-      > </a
-      ><a name="2737" class="Symbol"
+      ><a name="2734" class="Symbol"
       >(</a
-      ><a name="2738" href="Data.Maybe.html#2728" class="Bound"
+      ><a name="2735" href="Data.Maybe.html#2725" class="Bound"
       >x&#8777;y</a
-      ><a name="2741"
+      ><a name="2738"
       > </a
-      ><a name="2742" href="Function.html#713" class="Function Operator"
+      ><a name="2739" href="Function.html#713" class="Function Operator"
       >&#8728;</a
-      ><a name="2743"
+      ><a name="2740"
       > </a
-      ><a name="2744" href="Data.Maybe.html#1625" class="Function"
+      ><a name="2741" href="Data.Maybe.html#1622" class="Function"
       >drop-just</a
-      ><a name="2753" class="Symbol"
+      ><a name="2750" class="Symbol"
       >)</a
-      ><a name="2754"
+      ><a name="2751"
       >
   </a
-      ><a name="2757" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="2754" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="2761"
+      ><a name="2758"
       > </a
-      ><a name="2762" href="Data.Maybe.html#2762" class="Bound"
+      ><a name="2759" href="Data.Maybe.html#2759" class="Bound"
       >x</a
-      ><a name="2763"
+      ><a name="2760"
       >  </a
-      ><a name="2765" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2762" href="Data.Maybe.html#2566" class="Function Operator"
       >&#8799;</a
-      ><a name="2766"
+      ><a name="2763"
       > </a
-      ><a name="2767" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="2764" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="2774"
+      ><a name="2771"
       > </a
-      ><a name="2775" class="Symbol"
+      ><a name="2772" class="Symbol"
       >=</a
+      ><a name="2773"
+      > </a
+      ><a name="2774" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      >no</a
       ><a name="2776"
       > </a
-      ><a name="2777" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
-      >no</a
-      ><a name="2779"
-      > </a
-      ><a name="2780" class="Symbol"
+      ><a name="2777" class="Symbol"
       >&#955;()</a
-      ><a name="2783"
+      ><a name="2780"
       >
   </a
-      ><a name="2786" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="2783" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="2793"
+      ><a name="2790"
       > </a
-      ><a name="2794" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2791" href="Data.Maybe.html#2566" class="Function Operator"
       >&#8799;</a
-      ><a name="2795"
+      ><a name="2792"
       > </a
-      ><a name="2796" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="2793" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
-      ><a name="2800"
+      ><a name="2797"
       > </a
-      ><a name="2801" href="Data.Maybe.html#2801" class="Bound"
+      ><a name="2798" href="Data.Maybe.html#2798" class="Bound"
       >y</a
-      ><a name="2802"
+      ><a name="2799"
       >  </a
-      ><a name="2804" class="Symbol"
+      ><a name="2801" class="Symbol"
       >=</a
+      ><a name="2802"
+      > </a
+      ><a name="2803" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      >no</a
       ><a name="2805"
       > </a
-      ><a name="2806" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
-      >no</a
-      ><a name="2808"
-      > </a
-      ><a name="2809" class="Symbol"
+      ><a name="2806" class="Symbol"
       >&#955;()</a
-      ><a name="2812"
+      ><a name="2809"
       >
   </a
-      ><a name="2815" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="2812" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="2822"
+      ><a name="2819"
       > </a
-      ><a name="2823" href="Data.Maybe.html#2569" class="Function Operator"
+      ><a name="2820" href="Data.Maybe.html#2566" class="Function Operator"
       >&#8799;</a
-      ><a name="2824"
+      ><a name="2821"
       > </a
-      ><a name="2825" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="2822" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="2832"
+      ><a name="2829"
       > </a
-      ><a name="2833" class="Symbol"
+      ><a name="2830" class="Symbol"
       >=</a
-      ><a name="2834"
+      ><a name="2831"
       > </a
-      ><a name="2835" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
+      ><a name="2832" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
       >yes</a
-      ><a name="2838"
+      ><a name="2835"
       > </a
-      ><a name="2839" href="Data.Maybe.html#1591" class="InductiveConstructor"
+      ><a name="2836" href="Data.Maybe.html#1588" class="InductiveConstructor"
       >nothing</a
-      ><a name="2846"
+      ><a name="2843"
       >
 
 </a
-      ><a name="2848" class="Comment"
+      ><a name="2845" class="Comment"
       >------------------------------------------------------------------------</a
-      ><a name="2920"
+      ><a name="2917"
       >
 </a
-      ><a name="2921" class="Comment"
+      ><a name="2918" class="Comment"
       >-- Any and All are preserving decidability</a
-      ><a name="2963"
+      ><a name="2960"
       >
 
 </a
-      ><a name="2965" class="Keyword"
+      ><a name="2962" class="Keyword"
       >import</a
-      ><a name="2971"
+      ><a name="2968"
       > </a
-      ><a name="2972" href="Relation.Nullary.Decidable.html#1" class="Module"
+      ><a name="2969" href="Relation.Nullary.Decidable.html#1" class="Module"
       >Relation.Nullary.Decidable</a
+      ><a name="2995"
+      > </a
+      ><a name="2996" class="Symbol"
+      >as</a
       ><a name="2998"
       > </a
-      ><a name="2999" class="Symbol"
-      >as</a
-      ><a name="3001"
-      > </a
-      ><a name="3002" class="Module"
+      ><a name="2999" class="Module"
       >Dec</a
-      ><a name="3005"
+      ><a name="3002"
       >
 </a
-      ><a name="3006" class="Keyword"
+      ><a name="3003" class="Keyword"
       >open</a
-      ><a name="3010"
+      ><a name="3007"
       > </a
-      ><a name="3011" class="Keyword"
+      ><a name="3008" class="Keyword"
       >import</a
-      ><a name="3017"
+      ><a name="3014"
       > </a
-      ><a name="3018" href="Relation.Unary.html#1" class="Module"
+      ><a name="3015" href="Relation.Unary.html#1" class="Module"
       >Relation.Unary</a
+      ><a name="3029"
+      > </a
+      ><a name="3030" class="Symbol"
+      >as</a
       ><a name="3032"
       > </a
-      ><a name="3033" class="Symbol"
-      >as</a
-      ><a name="3035"
-      > </a
-      ><a name="3036" class="Module"
+      ><a name="3033" class="Module"
       >U</a
-      ><a name="3037"
+      ><a name="3034"
       >
 
 </a
-      ><a name="3039" href="Data.Maybe.html#3039" class="Function"
+      ><a name="3036" href="Data.Maybe.html#3036" class="Function"
       >anyDec</a
-      ><a name="3045"
+      ><a name="3042"
       > </a
-      ><a name="3046" class="Symbol"
+      ><a name="3043" class="Symbol"
       >:</a
-      ><a name="3047"
+      ><a name="3044"
       > </a
-      ><a name="3048" class="Symbol"
+      ><a name="3045" class="Symbol"
       >&#8704;</a
+      ><a name="3046"
+      > </a
+      ><a name="3047" class="Symbol"
+      >{</a
+      ><a name="3048" href="Data.Maybe.html#3048" class="Bound"
+      >a</a
       ><a name="3049"
       > </a
-      ><a name="3050" class="Symbol"
-      >{</a
-      ><a name="3051" href="Data.Maybe.html#3051" class="Bound"
-      >a</a
+      ><a name="3050" href="Data.Maybe.html#3050" class="Bound"
+      >p</a
+      ><a name="3051" class="Symbol"
+      >}</a
       ><a name="3052"
       > </a
-      ><a name="3053" href="Data.Maybe.html#3053" class="Bound"
-      >p</a
-      ><a name="3054" class="Symbol"
-      >}</a
+      ><a name="3053" class="Symbol"
+      >{</a
+      ><a name="3054" href="Data.Maybe.html#3054" class="Bound"
+      >A</a
       ><a name="3055"
       > </a
       ><a name="3056" class="Symbol"
-      >{</a
-      ><a name="3057" href="Data.Maybe.html#3057" class="Bound"
-      >A</a
-      ><a name="3058"
-      > </a
-      ><a name="3059" class="Symbol"
       >:</a
-      ><a name="3060"
+      ><a name="3057"
       > </a
-      ><a name="3061" class="PrimitiveType"
+      ><a name="3058" class="PrimitiveType"
       >Set</a
+      ><a name="3061"
+      > </a
+      ><a name="3062" href="Data.Maybe.html#3048" class="Bound"
+      >a</a
+      ><a name="3063" class="Symbol"
+      >}</a
       ><a name="3064"
       > </a
-      ><a name="3065" href="Data.Maybe.html#3051" class="Bound"
-      >a</a
-      ><a name="3066" class="Symbol"
-      >}</a
+      ><a name="3065" class="Symbol"
+      >{</a
+      ><a name="3066" href="Data.Maybe.html#3066" class="Bound"
+      >P</a
       ><a name="3067"
       > </a
       ><a name="3068" class="Symbol"
-      >{</a
-      ><a name="3069" href="Data.Maybe.html#3069" class="Bound"
-      >P</a
-      ><a name="3070"
-      > </a
-      ><a name="3071" class="Symbol"
       >:</a
-      ><a name="3072"
+      ><a name="3069"
       > </a
-      ><a name="3073" href="Data.Maybe.html#3057" class="Bound"
+      ><a name="3070" href="Data.Maybe.html#3054" class="Bound"
       >A</a
-      ><a name="3074"
+      ><a name="3071"
       > </a
-      ><a name="3075" class="Symbol"
+      ><a name="3072" class="Symbol"
       >&#8594;</a
-      ><a name="3076"
+      ><a name="3073"
       > </a
-      ><a name="3077" class="PrimitiveType"
+      ><a name="3074" class="PrimitiveType"
       >Set</a
+      ><a name="3077"
+      > </a
+      ><a name="3078" href="Data.Maybe.html#3050" class="Bound"
+      >p</a
+      ><a name="3079" class="Symbol"
+      >}</a
       ><a name="3080"
       > </a
-      ><a name="3081" href="Data.Maybe.html#3053" class="Bound"
-      >p</a
-      ><a name="3082" class="Symbol"
-      >}</a
-      ><a name="3083"
-      > </a
-      ><a name="3084" class="Symbol"
+      ><a name="3081" class="Symbol"
       >&#8594;</a
-      ><a name="3085"
+      ><a name="3082"
       >
          </a
-      ><a name="3095" href="Relation.Unary.html#4744" class="Function"
+      ><a name="3092" href="Relation.Unary.html#4741" class="Function"
       >U.Decidable</a
-      ><a name="3106"
+      ><a name="3103"
       > </a
-      ><a name="3107" href="Data.Maybe.html#3069" class="Bound"
+      ><a name="3104" href="Data.Maybe.html#3066" class="Bound"
       >P</a
-      ><a name="3108"
+      ><a name="3105"
       > </a
-      ><a name="3109" class="Symbol"
+      ><a name="3106" class="Symbol"
       >&#8594;</a
-      ><a name="3110"
+      ><a name="3107"
       > </a
-      ><a name="3111" href="Relation.Unary.html#4744" class="Function"
+      ><a name="3108" href="Relation.Unary.html#4741" class="Function"
       >U.Decidable</a
-      ><a name="3122"
+      ><a name="3119"
       > </a
-      ><a name="3123" class="Symbol"
+      ><a name="3120" class="Symbol"
       >(</a
-      ><a name="3124" href="Data.Maybe.Minimal.html#2028" class="Datatype"
+      ><a name="3121" href="Data.Maybe.Base.html#2016" class="Datatype"
       >Any</a
-      ><a name="3127"
+      ><a name="3124"
       > </a
-      ><a name="3128" href="Data.Maybe.html#3069" class="Bound"
+      ><a name="3125" href="Data.Maybe.html#3066" class="Bound"
       >P</a
-      ><a name="3129" class="Symbol"
+      ><a name="3126" class="Symbol"
       >)</a
-      ><a name="3130"
+      ><a name="3127"
       >
 </a
-      ><a name="3131" href="Data.Maybe.html#3039" class="Function"
+      ><a name="3128" href="Data.Maybe.html#3036" class="Function"
       >anyDec</a
-      ><a name="3137"
+      ><a name="3134"
       > </a
-      ><a name="3138" href="Data.Maybe.html#3138" class="Bound"
+      ><a name="3135" href="Data.Maybe.html#3135" class="Bound"
       >p</a
-      ><a name="3139"
+      ><a name="3136"
       > </a
-      ><a name="3140" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="3137" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="3147"
+      ><a name="3144"
       >  </a
-      ><a name="3149" class="Symbol"
+      ><a name="3146" class="Symbol"
       >=</a
+      ><a name="3147"
+      > </a
+      ><a name="3148" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      >no</a
       ><a name="3150"
       > </a
-      ><a name="3151" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
-      >no</a
-      ><a name="3153"
-      > </a
-      ><a name="3154" class="Symbol"
+      ><a name="3151" class="Symbol"
       >&#955;()</a
-      ><a name="3157"
+      ><a name="3154"
       >
 </a
-      ><a name="3158" href="Data.Maybe.html#3039" class="Function"
+      ><a name="3155" href="Data.Maybe.html#3036" class="Function"
       >anyDec</a
-      ><a name="3164"
+      ><a name="3161"
       > </a
-      ><a name="3165" href="Data.Maybe.html#3165" class="Bound"
+      ><a name="3162" href="Data.Maybe.html#3162" class="Bound"
       >p</a
-      ><a name="3166"
+      ><a name="3163"
       > </a
-      ><a name="3167" class="Symbol"
+      ><a name="3164" class="Symbol"
       >(</a
-      ><a name="3168" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="3165" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
+      ><a name="3169"
+      > </a
+      ><a name="3170" href="Data.Maybe.html#3170" class="Bound"
+      >x</a
+      ><a name="3171" class="Symbol"
+      >)</a
       ><a name="3172"
       > </a
-      ><a name="3173" href="Data.Maybe.html#3173" class="Bound"
-      >x</a
-      ><a name="3174" class="Symbol"
-      >)</a
-      ><a name="3175"
-      > </a
-      ><a name="3176" class="Symbol"
+      ><a name="3173" class="Symbol"
       >=</a
-      ><a name="3177"
+      ><a name="3174"
       > </a
-      ><a name="3178" href="Relation.Nullary.Decidable.html#1804" class="Function"
+      ><a name="3175" href="Relation.Nullary.Decidable.html#1801" class="Function"
       >Dec.map&#8242;</a
-      ><a name="3186"
+      ><a name="3183"
       > </a
-      ><a name="3187" href="Data.Maybe.Minimal.html#2098" class="InductiveConstructor"
+      ><a name="3184" href="Data.Maybe.Base.html#2086" class="InductiveConstructor"
       >just</a
+      ><a name="3188"
+      > </a
+      ><a name="3189" class="Symbol"
+      >(&#955;</a
       ><a name="3191"
       > </a
       ><a name="3192" class="Symbol"
-      >(&#955;</a
-      ><a name="3194"
-      > </a
-      ><a name="3195" class="Symbol"
       >{</a
-      ><a name="3196"
+      ><a name="3193"
       > </a
-      ><a name="3197" class="Symbol"
+      ><a name="3194" class="Symbol"
       >(</a
-      ><a name="3198" href="Data.Maybe.Minimal.html#2098" class="InductiveConstructor"
+      ><a name="3195" href="Data.Maybe.Base.html#2086" class="InductiveConstructor"
       >Any.just</a
-      ><a name="3206"
+      ><a name="3203"
       > </a
-      ><a name="3207" href="Data.Maybe.html#3207" class="Bound"
+      ><a name="3204" href="Data.Maybe.html#3204" class="Bound"
       >px</a
-      ><a name="3209" class="Symbol"
+      ><a name="3206" class="Symbol"
       >)</a
-      ><a name="3210"
+      ><a name="3207"
       > </a
-      ><a name="3211" class="Symbol"
+      ><a name="3208" class="Symbol"
       >&#8594;</a
+      ><a name="3209"
+      > </a
+      ><a name="3210" href="Data.Maybe.html#3204" class="Bound"
+      >px</a
       ><a name="3212"
       > </a
-      ><a name="3213" href="Data.Maybe.html#3207" class="Bound"
-      >px</a
+      ><a name="3213" class="Symbol"
+      >})</a
       ><a name="3215"
       > </a
       ><a name="3216" class="Symbol"
-      >})</a
+      >(</a
+      ><a name="3217" href="Data.Maybe.html#3162" class="Bound"
+      >p</a
       ><a name="3218"
       > </a
-      ><a name="3219" class="Symbol"
-      >(</a
-      ><a name="3220" href="Data.Maybe.html#3165" class="Bound"
-      >p</a
-      ><a name="3221"
-      > </a
-      ><a name="3222" href="Data.Maybe.html#3173" class="Bound"
+      ><a name="3219" href="Data.Maybe.html#3170" class="Bound"
       >x</a
-      ><a name="3223" class="Symbol"
+      ><a name="3220" class="Symbol"
       >)</a
-      ><a name="3224"
+      ><a name="3221"
       >
 
 </a
-      ><a name="3226" href="Data.Maybe.html#3226" class="Function"
+      ><a name="3223" href="Data.Maybe.html#3223" class="Function"
       >allDec</a
-      ><a name="3232"
+      ><a name="3229"
       > </a
-      ><a name="3233" class="Symbol"
+      ><a name="3230" class="Symbol"
       >:</a
-      ><a name="3234"
+      ><a name="3231"
       > </a
-      ><a name="3235" class="Symbol"
+      ><a name="3232" class="Symbol"
       >&#8704;</a
+      ><a name="3233"
+      > </a
+      ><a name="3234" class="Symbol"
+      >{</a
+      ><a name="3235" href="Data.Maybe.html#3235" class="Bound"
+      >a</a
       ><a name="3236"
       > </a
-      ><a name="3237" class="Symbol"
-      >{</a
-      ><a name="3238" href="Data.Maybe.html#3238" class="Bound"
-      >a</a
+      ><a name="3237" href="Data.Maybe.html#3237" class="Bound"
+      >p</a
+      ><a name="3238" class="Symbol"
+      >}</a
       ><a name="3239"
       > </a
-      ><a name="3240" href="Data.Maybe.html#3240" class="Bound"
-      >p</a
-      ><a name="3241" class="Symbol"
-      >}</a
+      ><a name="3240" class="Symbol"
+      >{</a
+      ><a name="3241" href="Data.Maybe.html#3241" class="Bound"
+      >A</a
       ><a name="3242"
       > </a
       ><a name="3243" class="Symbol"
-      >{</a
-      ><a name="3244" href="Data.Maybe.html#3244" class="Bound"
-      >A</a
-      ><a name="3245"
-      > </a
-      ><a name="3246" class="Symbol"
       >:</a
-      ><a name="3247"
+      ><a name="3244"
       > </a
-      ><a name="3248" class="PrimitiveType"
+      ><a name="3245" class="PrimitiveType"
       >Set</a
+      ><a name="3248"
+      > </a
+      ><a name="3249" href="Data.Maybe.html#3235" class="Bound"
+      >a</a
+      ><a name="3250" class="Symbol"
+      >}</a
       ><a name="3251"
       > </a
-      ><a name="3252" href="Data.Maybe.html#3238" class="Bound"
-      >a</a
-      ><a name="3253" class="Symbol"
-      >}</a
+      ><a name="3252" class="Symbol"
+      >{</a
+      ><a name="3253" href="Data.Maybe.html#3253" class="Bound"
+      >P</a
       ><a name="3254"
       > </a
       ><a name="3255" class="Symbol"
-      >{</a
-      ><a name="3256" href="Data.Maybe.html#3256" class="Bound"
-      >P</a
-      ><a name="3257"
-      > </a
-      ><a name="3258" class="Symbol"
       >:</a
-      ><a name="3259"
+      ><a name="3256"
       > </a
-      ><a name="3260" href="Data.Maybe.html#3244" class="Bound"
+      ><a name="3257" href="Data.Maybe.html#3241" class="Bound"
       >A</a
-      ><a name="3261"
+      ><a name="3258"
       > </a
-      ><a name="3262" class="Symbol"
+      ><a name="3259" class="Symbol"
       >&#8594;</a
-      ><a name="3263"
+      ><a name="3260"
       > </a
-      ><a name="3264" class="PrimitiveType"
+      ><a name="3261" class="PrimitiveType"
       >Set</a
+      ><a name="3264"
+      > </a
+      ><a name="3265" href="Data.Maybe.html#3237" class="Bound"
+      >p</a
+      ><a name="3266" class="Symbol"
+      >}</a
       ><a name="3267"
       > </a
-      ><a name="3268" href="Data.Maybe.html#3240" class="Bound"
-      >p</a
-      ><a name="3269" class="Symbol"
-      >}</a
-      ><a name="3270"
-      > </a
-      ><a name="3271" class="Symbol"
+      ><a name="3268" class="Symbol"
       >&#8594;</a
-      ><a name="3272"
+      ><a name="3269"
       >
          </a
-      ><a name="3282" href="Relation.Unary.html#4744" class="Function"
+      ><a name="3279" href="Relation.Unary.html#4741" class="Function"
       >U.Decidable</a
-      ><a name="3293"
+      ><a name="3290"
       > </a
-      ><a name="3294" href="Data.Maybe.html#3256" class="Bound"
+      ><a name="3291" href="Data.Maybe.html#3253" class="Bound"
       >P</a
-      ><a name="3295"
+      ><a name="3292"
       > </a
-      ><a name="3296" class="Symbol"
+      ><a name="3293" class="Symbol"
       >&#8594;</a
-      ><a name="3297"
+      ><a name="3294"
       > </a
-      ><a name="3298" href="Relation.Unary.html#4744" class="Function"
+      ><a name="3295" href="Relation.Unary.html#4741" class="Function"
       >U.Decidable</a
-      ><a name="3309"
+      ><a name="3306"
       > </a
-      ><a name="3310" class="Symbol"
+      ><a name="3307" class="Symbol"
       >(</a
-      ><a name="3311" href="Data.Maybe.Minimal.html#2145" class="Datatype"
+      ><a name="3308" href="Data.Maybe.Base.html#2133" class="Datatype"
       >All</a
-      ><a name="3314"
+      ><a name="3311"
       > </a
-      ><a name="3315" href="Data.Maybe.html#3256" class="Bound"
+      ><a name="3312" href="Data.Maybe.html#3253" class="Bound"
       >P</a
-      ><a name="3316" class="Symbol"
+      ><a name="3313" class="Symbol"
       >)</a
-      ><a name="3317"
+      ><a name="3314"
       >
 </a
-      ><a name="3318" href="Data.Maybe.html#3226" class="Function"
+      ><a name="3315" href="Data.Maybe.html#3223" class="Function"
       >allDec</a
-      ><a name="3324"
+      ><a name="3321"
       > </a
-      ><a name="3325" href="Data.Maybe.html#3325" class="Bound"
+      ><a name="3322" href="Data.Maybe.html#3322" class="Bound"
       >p</a
-      ><a name="3326"
+      ><a name="3323"
       > </a
-      ><a name="3327" href="Data.Maybe.Minimal.html#406" class="InductiveConstructor"
+      ><a name="3324" href="Data.Maybe.Base.html#403" class="InductiveConstructor"
       >nothing</a
-      ><a name="3334"
+      ><a name="3331"
       >  </a
-      ><a name="3336" class="Symbol"
+      ><a name="3333" class="Symbol"
       >=</a
-      ><a name="3337"
+      ><a name="3334"
       > </a
-      ><a name="3338" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
+      ><a name="3335" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
       >yes</a
-      ><a name="3341"
+      ><a name="3338"
       > </a
-      ><a name="3342" href="Data.Maybe.Minimal.html#2261" class="InductiveConstructor"
+      ><a name="3339" href="Data.Maybe.Base.html#2249" class="InductiveConstructor"
       >nothing</a
-      ><a name="3349"
+      ><a name="3346"
       >
 </a
-      ><a name="3350" href="Data.Maybe.html#3226" class="Function"
+      ><a name="3347" href="Data.Maybe.html#3223" class="Function"
       >allDec</a
-      ><a name="3356"
+      ><a name="3353"
       > </a
-      ><a name="3357" href="Data.Maybe.html#3357" class="Bound"
+      ><a name="3354" href="Data.Maybe.html#3354" class="Bound"
       >p</a
-      ><a name="3358"
+      ><a name="3355"
       > </a
-      ><a name="3359" class="Symbol"
+      ><a name="3356" class="Symbol"
       >(</a
-      ><a name="3360" href="Data.Maybe.Minimal.html#376" class="InductiveConstructor"
+      ><a name="3357" href="Data.Maybe.Base.html#373" class="InductiveConstructor"
       >just</a
+      ><a name="3361"
+      > </a
+      ><a name="3362" href="Data.Maybe.html#3362" class="Bound"
+      >x</a
+      ><a name="3363" class="Symbol"
+      >)</a
       ><a name="3364"
       > </a
-      ><a name="3365" href="Data.Maybe.html#3365" class="Bound"
-      >x</a
-      ><a name="3366" class="Symbol"
-      >)</a
-      ><a name="3367"
-      > </a
-      ><a name="3368" class="Symbol"
+      ><a name="3365" class="Symbol"
       >=</a
-      ><a name="3369"
+      ><a name="3366"
       > </a
-      ><a name="3370" href="Relation.Nullary.Decidable.html#1804" class="Function"
+      ><a name="3367" href="Relation.Nullary.Decidable.html#1801" class="Function"
       >Dec.map&#8242;</a
-      ><a name="3378"
+      ><a name="3375"
       > </a
-      ><a name="3379" href="Data.Maybe.Minimal.html#2215" class="InductiveConstructor"
+      ><a name="3376" href="Data.Maybe.Base.html#2203" class="InductiveConstructor"
       >just</a
+      ><a name="3380"
+      > </a
+      ><a name="3381" class="Symbol"
+      >(&#955;</a
       ><a name="3383"
       > </a
       ><a name="3384" class="Symbol"
-      >(&#955;</a
-      ><a name="3386"
-      > </a
-      ><a name="3387" class="Symbol"
       >{</a
-      ><a name="3388"
+      ><a name="3385"
       > </a
-      ><a name="3389" class="Symbol"
+      ><a name="3386" class="Symbol"
       >(</a
-      ><a name="3390" href="Data.Maybe.Minimal.html#2215" class="InductiveConstructor"
+      ><a name="3387" href="Data.Maybe.Base.html#2203" class="InductiveConstructor"
       >All.just</a
-      ><a name="3398"
+      ><a name="3395"
       > </a
-      ><a name="3399" href="Data.Maybe.html#3399" class="Bound"
+      ><a name="3396" href="Data.Maybe.html#3396" class="Bound"
       >px</a
-      ><a name="3401" class="Symbol"
+      ><a name="3398" class="Symbol"
       >)</a
-      ><a name="3402"
+      ><a name="3399"
       > </a
-      ><a name="3403" class="Symbol"
+      ><a name="3400" class="Symbol"
       >&#8594;</a
+      ><a name="3401"
+      > </a
+      ><a name="3402" href="Data.Maybe.html#3396" class="Bound"
+      >px</a
       ><a name="3404"
       > </a
-      ><a name="3405" href="Data.Maybe.html#3399" class="Bound"
-      >px</a
+      ><a name="3405" class="Symbol"
+      >})</a
       ><a name="3407"
       > </a
       ><a name="3408" class="Symbol"
-      >})</a
+      >(</a
+      ><a name="3409" href="Data.Maybe.html#3354" class="Bound"
+      >p</a
       ><a name="3410"
       > </a
-      ><a name="3411" class="Symbol"
-      >(</a
-      ><a name="3412" href="Data.Maybe.html#3357" class="Bound"
-      >p</a
-      ><a name="3413"
-      > </a
-      ><a name="3414" href="Data.Maybe.html#3365" class="Bound"
+      ><a name="3411" href="Data.Maybe.html#3362" class="Bound"
       >x</a
-      ><a name="3415" class="Symbol"
+      ><a name="3412" class="Symbol"
       >)</a
-      ><a name="3416"
+      ><a name="3413"
       >
 </a
       ></pre
