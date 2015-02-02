@@ -360,1151 +360,733 @@
 
 </a
       ><a name="795" class="Keyword"
+      >open</a
+      ><a name="799"
+      > </a
+      ><a name="800" class="Keyword"
       >import</a
-      ><a name="801"
+      ><a name="806"
       > </a
-      ><a name="802" href="Data.String.Core.html#1" class="Module"
-      >Data.String.Core</a
-      ><a name="818"
+      ><a name="807" href="Data.String.Base.html#1" class="Module"
+      >Data.String.Base</a
+      ><a name="823"
       > </a
-      ><a name="819" class="Symbol"
-      >as</a
-      ><a name="821"
-      > </a
-      ><a name="822" class="Module"
-      >Core</a
-      ><a name="826"
-      >
-</a
-      ><a name="827" class="Keyword"
-      >open</a
-      ><a name="831"
-      > </a
-      ><a name="832" href="Data.String.Core.html#1" class="Module"
-      >Core</a
-      ><a name="836"
-      > </a
-      ><a name="837" class="Keyword"
+      ><a name="824" class="Keyword"
       >public</a
-      ><a name="843"
-      > </a
-      ><a name="844" class="Keyword"
-      >using</a
-      ><a name="849"
-      > </a
-      ><a name="850" class="Symbol"
-      >(</a
-      ><a name="851"
-      >String</a
-      ><a name="857" class="Symbol"
-      >)</a
-      ><a name="858"
-      >
-</a
-      ><a name="859" class="Keyword"
-      >open</a
-      ><a name="863"
-      > </a
-      ><a name="864" href="Data.String.Core.html#1" class="Module"
-      >Core</a
-      ><a name="868"
+      ><a name="830"
       >
 
 </a
-      ><a name="870" class="Comment"
+      ><a name="832" class="Comment"
       >-- Possibly infinite strings.</a
-      ><a name="899"
+      ><a name="861"
       >
 
 </a
-      ><a name="901" href="Data.String.html#901" class="Function"
+      ><a name="863" href="Data.String.html#863" class="Function"
       >Costring</a
-      ><a name="909"
+      ><a name="871"
       > </a
-      ><a name="910" class="Symbol"
+      ><a name="872" class="Symbol"
       >:</a
-      ><a name="911"
+      ><a name="873"
       > </a
-      ><a name="912" class="PrimitiveType"
+      ><a name="874" class="PrimitiveType"
       >Set</a
-      ><a name="915"
+      ><a name="877"
       >
 </a
-      ><a name="916" href="Data.String.html#901" class="Function"
+      ><a name="878" href="Data.String.html#863" class="Function"
       >Costring</a
-      ><a name="924"
+      ><a name="886"
       > </a
-      ><a name="925" class="Symbol"
+      ><a name="887" class="Symbol"
       >=</a
-      ><a name="926"
+      ><a name="888"
       > </a
-      ><a name="927" href="Data.Colist.html#1494" class="Datatype"
+      ><a name="889" href="Data.Colist.html#1494" class="Datatype"
       >Colist</a
-      ><a name="933"
+      ><a name="895"
       > </a
-      ><a name="934" href="Data.Char.Core.html#420" class="Postulate"
+      ><a name="896" href="Data.Char.Core.html#343" class="Postulate"
       >Char</a
-      ><a name="938"
+      ><a name="900"
       >
 
 </a
-      ><a name="940" class="Comment"
+      ><a name="902" class="Comment"
       >------------------------------------------------------------------------</a
-      ><a name="1012"
+      ><a name="974"
       >
 </a
-      ><a name="1013" class="Comment"
+      ><a name="975" class="Comment"
       >-- Operations</a
-      ><a name="1026"
+      ><a name="988"
       >
 
 </a
-      ><a name="1028" class="Keyword"
-      >infixr</a
+      ><a name="990" href="Data.String.html#990" class="Function"
+      >toVec</a
+      ><a name="995"
+      > </a
+      ><a name="996" class="Symbol"
+      >:</a
+      ><a name="997"
+      > </a
+      ><a name="998" class="Symbol"
+      >(</a
+      ><a name="999" href="Data.String.html#999" class="Bound"
+      >s</a
+      ><a name="1000"
+      > </a
+      ><a name="1001" class="Symbol"
+      >:</a
+      ><a name="1002"
+      > </a
+      ><a name="1003" href="Data.String.Base.html#577" class="Postulate"
+      >String</a
+      ><a name="1009" class="Symbol"
+      >)</a
+      ><a name="1010"
+      > </a
+      ><a name="1011" class="Symbol"
+      >&#8594;</a
+      ><a name="1012"
+      > </a
+      ><a name="1013" href="Data.Vec.html#609" class="Datatype"
+      >Vec</a
+      ><a name="1016"
+      > </a
+      ><a name="1017" href="Data.Char.Core.html#343" class="Postulate"
+      >Char</a
+      ><a name="1021"
+      > </a
+      ><a name="1022" class="Symbol"
+      >(</a
+      ><a name="1023" href="Data.List.Base.html#2948" class="Function"
+      >List.length</a
       ><a name="1034"
       > </a
-      ><a name="1035" class="Number"
-      >5</a
-      ><a name="1036"
-      > _++_
-
+      ><a name="1035" class="Symbol"
+      >(</a
+      ><a name="1036" href="Data.String.Base.html#1144" class="Function"
+      >toList</a
+      ><a name="1042"
+      > </a
+      ><a name="1043" href="Data.String.html#999" class="Bound"
+      >s</a
+      ><a name="1044" class="Symbol"
+      >))</a
+      ><a name="1046"
+      >
 </a
-      ><a name="1043" href="Data.String.html#1043" class="Function Operator"
-      >_++_</a
-      ><a name="1047"
+      ><a name="1047" href="Data.String.html#990" class="Function"
+      >toVec</a
+      ><a name="1052"
       > </a
-      ><a name="1048" class="Symbol"
-      >:</a
-      ><a name="1049"
+      ><a name="1053" href="Data.String.html#1053" class="Bound"
+      >s</a
+      ><a name="1054"
       > </a
-      ><a name="1050" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
+      ><a name="1055" class="Symbol"
+      >=</a
       ><a name="1056"
       > </a
-      ><a name="1057" class="Symbol"
-      >&#8594;</a
-      ><a name="1058"
+      ><a name="1057" href="Data.Vec.html#4833" class="Function"
+      >Vec.fromList</a
+      ><a name="1069"
       > </a
-      ><a name="1059" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1065"
-      > </a
-      ><a name="1066" class="Symbol"
-      >&#8594;</a
-      ><a name="1067"
-      > </a
-      ><a name="1068" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1074"
-      >
-</a
-      ><a name="1075" href="Data.String.html#1043" class="Function Operator"
-      >_++_</a
-      ><a name="1079"
-      > </a
-      ><a name="1080" class="Symbol"
-      >=</a
-      ><a name="1081"
-      > </a
-      ><a name="1082" href="Data.String.Core.html#653" class="Primitive"
-      >primStringAppend</a
-      ><a name="1098"
-      >
-
-</a
-      ><a name="1100" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1106"
-      > </a
-      ><a name="1107" class="Symbol"
-      >:</a
-      ><a name="1108"
-      > </a
-      ><a name="1109" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1115"
-      > </a
-      ><a name="1116" class="Symbol"
-      >&#8594;</a
-      ><a name="1117"
-      > </a
-      ><a name="1118" href="Data.List.Base.html#669" class="Datatype"
-      >List</a
-      ><a name="1122"
-      > </a
-      ><a name="1123" href="Data.Char.Core.html#420" class="Postulate"
-      >Char</a
-      ><a name="1127"
-      >
-</a
-      ><a name="1128" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1134"
-      > </a
-      ><a name="1135" class="Symbol"
-      >=</a
-      ><a name="1136"
-      > </a
-      ><a name="1137" href="Data.String.Core.html#701" class="Primitive"
-      >primStringToList</a
-      ><a name="1153"
-      >
-
-</a
-      ><a name="1155" href="Data.String.html#1155" class="Function"
-      >fromList</a
-      ><a name="1163"
-      > </a
-      ><a name="1164" class="Symbol"
-      >:</a
-      ><a name="1165"
-      > </a
-      ><a name="1166" href="Data.List.Base.html#669" class="Datatype"
-      >List</a
-      ><a name="1170"
-      > </a
-      ><a name="1171" href="Data.Char.Core.html#420" class="Postulate"
-      >Char</a
-      ><a name="1175"
-      > </a
-      ><a name="1176" class="Symbol"
-      >&#8594;</a
-      ><a name="1177"
-      > </a
-      ><a name="1178" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1184"
-      >
-</a
-      ><a name="1185" href="Data.String.html#1155" class="Function"
-      >fromList</a
-      ><a name="1193"
-      > </a
-      ><a name="1194" class="Symbol"
-      >=</a
-      ><a name="1195"
-      > </a
-      ><a name="1196" href="Data.String.Core.html#743" class="Primitive"
-      >primStringFromList</a
-      ><a name="1214"
-      >
-
-</a
-      ><a name="1216" href="Data.String.html#1216" class="Function"
-      >toList&#8728;fromList</a
-      ><a name="1231"
-      > </a
-      ><a name="1232" class="Symbol"
-      >:</a
-      ><a name="1233"
-      > </a
-      ><a name="1234" class="Symbol"
-      >&#8704;</a
-      ><a name="1235"
-      > </a
-      ><a name="1236" href="Data.String.html#1236" class="Bound"
-      >s</a
-      ><a name="1237"
-      > </a
-      ><a name="1238" class="Symbol"
-      >&#8594;</a
-      ><a name="1239"
-      > </a
-      ><a name="1240" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1246"
-      > </a
-      ><a name="1247" class="Symbol"
+      ><a name="1070" class="Symbol"
       >(</a
-      ><a name="1248" href="Data.String.html#1155" class="Function"
-      >fromList</a
-      ><a name="1256"
+      ><a name="1071" href="Data.String.Base.html#1144" class="Function"
+      >toList</a
+      ><a name="1077"
       > </a
-      ><a name="1257" href="Data.String.html#1236" class="Bound"
+      ><a name="1078" href="Data.String.html#1053" class="Bound"
       >s</a
-      ><a name="1258" class="Symbol"
+      ><a name="1079" class="Symbol"
       >)</a
+      ><a name="1080"
+      >
+
+</a
+      ><a name="1082" href="Data.String.html#1082" class="Function"
+      >toCostring</a
+      ><a name="1092"
+      > </a
+      ><a name="1093" class="Symbol"
+      >:</a
+      ><a name="1094"
+      > </a
+      ><a name="1095" href="Data.String.Base.html#577" class="Postulate"
+      >String</a
+      ><a name="1101"
+      > </a
+      ><a name="1102" class="Symbol"
+      >&#8594;</a
+      ><a name="1103"
+      > </a
+      ><a name="1104" href="Data.String.html#863" class="Function"
+      >Costring</a
+      ><a name="1112"
+      >
+</a
+      ><a name="1113" href="Data.String.html#1082" class="Function"
+      >toCostring</a
+      ><a name="1123"
+      > </a
+      ><a name="1124" class="Symbol"
+      >=</a
+      ><a name="1125"
+      > </a
+      ><a name="1126" href="Data.Colist.html#2459" class="Function"
+      >Colist.fromList</a
+      ><a name="1141"
+      > </a
+      ><a name="1142" href="Function.html#713" class="Function Operator"
+      >&#8728;</a
+      ><a name="1143"
+      > </a
+      ><a name="1144" href="Data.String.Base.html#1144" class="Function"
+      >toList</a
+      ><a name="1150"
+      >
+
+</a
+      ><a name="1152" class="Comment"
+      >-- Informative equality test.</a
+      ><a name="1181"
+      >
+
+</a
+      ><a name="1183" href="Data.String.html#1183" class="Function Operator"
+      >_&#8799;_</a
+      ><a name="1186"
+      > </a
+      ><a name="1187" class="Symbol"
+      >:</a
+      ><a name="1188"
+      > </a
+      ><a name="1189" href="Relation.Binary.Core.html#3511" class="Function"
+      >Decidable</a
+      ><a name="1198"
+      > </a
+      ><a name="1199" class="Symbol"
+      >{</a
+      ><a name="1200" class="Argument"
+      >A</a
+      ><a name="1201"
+      > </a
+      ><a name="1202" class="Symbol"
+      >=</a
+      ><a name="1203"
+      > </a
+      ><a name="1204" href="Data.String.Base.html#577" class="Postulate"
+      >String</a
+      ><a name="1210" class="Symbol"
+      >}</a
+      ><a name="1211"
+      > </a
+      ><a name="1212" href="Relation.Binary.Core.html#4603" class="Datatype Operator"
+      >_&#8801;_</a
+      ><a name="1215"
+      >
+</a
+      ><a name="1216" href="Data.String.html#1216" class="Bound"
+      >s&#8321;</a
+      ><a name="1218"
+      > </a
+      ><a name="1219" href="Data.String.html#1183" class="Function Operator"
+      >&#8799;</a
+      ><a name="1220"
+      > </a
+      ><a name="1221" href="Data.String.html#1221" class="Bound"
+      >s&#8322;</a
+      ><a name="1223"
+      > </a
+      ><a name="1224" class="Keyword"
+      >with</a
+      ><a name="1228"
+      > </a
+      ><a name="1229" href="Data.String.Base.html#900" class="Primitive"
+      >primStringEquality</a
+      ><a name="1247"
+      > </a
+      ><a name="1248" href="Data.String.html#1216" class="Bound"
+      >s&#8321;</a
+      ><a name="1250"
+      > </a
+      ><a name="1251" href="Data.String.html#1221" class="Bound"
+      >s&#8322;</a
+      ><a name="1253"
+      >
+</a
+      ><a name="1254" class="Symbol"
+      >...</a
+      ><a name="1257"
+      > </a
+      ><a name="1258" class="Symbol"
+      >|</a
       ><a name="1259"
       > </a
-      ><a name="1260" href="Relation.Binary.Core.html#4603" class="Datatype Operator"
-      >&#8801;</a
-      ><a name="1261"
+      ><a name="1260" href="Data.Bool.Base.html#488" class="InductiveConstructor"
+      >true</a
+      ><a name="1264"
+      >  </a
+      ><a name="1266" class="Symbol"
+      >=</a
+      ><a name="1267"
       > </a
-      ><a name="1262" href="Data.String.html#1236" class="Bound"
-      >s</a
-      ><a name="1263"
+      ><a name="1268" href="Relation.Nullary.html#520" class="InductiveConstructor"
+      >yes</a
+      ><a name="1271"
+      > </a
+      ><a name="1272" href="Relation.Binary.PropositionalEquality.TrustMe.html#551" class="Function"
+      >trustMe</a
+      ><a name="1279"
       >
 </a
-      ><a name="1264" href="Data.String.html#1216" class="Function"
-      >toList&#8728;fromList</a
-      ><a name="1279"
-      > </a
-      ><a name="1280" href="Data.String.html#1280" class="Bound"
-      >s</a
-      ><a name="1281"
-      > </a
-      ><a name="1282" class="Symbol"
-      >=</a
+      ><a name="1280" class="Symbol"
+      >...</a
       ><a name="1283"
       > </a
-      ><a name="1284" href="Relation.Binary.PropositionalEquality.TrustMe.html#556" class="Function"
-      >trustMe</a
-      ><a name="1291"
-      >
-
-</a
-      ><a name="1293" href="Data.String.html#1293" class="Function"
-      >fromList&#8728;toList</a
-      ><a name="1308"
-      > </a
-      ><a name="1309" class="Symbol"
-      >:</a
-      ><a name="1310"
-      > </a
-      ><a name="1311" class="Symbol"
-      >&#8704;</a
-      ><a name="1312"
-      > </a
-      ><a name="1313" href="Data.String.html#1313" class="Bound"
-      >s</a
-      ><a name="1314"
-      > </a
-      ><a name="1315" class="Symbol"
-      >&#8594;</a
-      ><a name="1316"
-      > </a
-      ><a name="1317" href="Data.String.html#1155" class="Function"
-      >fromList</a
-      ><a name="1325"
-      > </a
-      ><a name="1326" class="Symbol"
-      >(</a
-      ><a name="1327" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1333"
-      > </a
-      ><a name="1334" href="Data.String.html#1313" class="Bound"
-      >s</a
-      ><a name="1335" class="Symbol"
-      >)</a
-      ><a name="1336"
-      > </a
-      ><a name="1337" href="Relation.Binary.Core.html#4603" class="Datatype Operator"
-      >&#8801;</a
-      ><a name="1338"
-      > </a
-      ><a name="1339" href="Data.String.html#1313" class="Bound"
-      >s</a
-      ><a name="1340"
-      >
-</a
-      ><a name="1341" href="Data.String.html#1293" class="Function"
-      >fromList&#8728;toList</a
-      ><a name="1356"
-      > </a
-      ><a name="1357" href="Data.String.html#1357" class="Bound"
-      >s</a
-      ><a name="1358"
-      > </a
-      ><a name="1359" class="Symbol"
-      >=</a
-      ><a name="1360"
-      > </a
-      ><a name="1361" href="Relation.Binary.PropositionalEquality.TrustMe.html#556" class="Function"
-      >trustMe</a
-      ><a name="1368"
-      >
-
-</a
-      ><a name="1370" href="Data.String.html#1370" class="Function"
-      >toVec</a
-      ><a name="1375"
-      > </a
-      ><a name="1376" class="Symbol"
-      >:</a
-      ><a name="1377"
-      > </a
-      ><a name="1378" class="Symbol"
-      >(</a
-      ><a name="1379" href="Data.String.html#1379" class="Bound"
-      >s</a
-      ><a name="1380"
-      > </a
-      ><a name="1381" class="Symbol"
-      >:</a
-      ><a name="1382"
-      > </a
-      ><a name="1383" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1389" class="Symbol"
-      >)</a
-      ><a name="1390"
-      > </a
-      ><a name="1391" class="Symbol"
-      >&#8594;</a
-      ><a name="1392"
-      > </a
-      ><a name="1393" href="Data.Vec.html#609" class="Datatype"
-      >Vec</a
-      ><a name="1396"
-      > </a
-      ><a name="1397" href="Data.Char.Core.html#420" class="Postulate"
-      >Char</a
-      ><a name="1401"
-      > </a
-      ><a name="1402" class="Symbol"
-      >(</a
-      ><a name="1403" href="Data.List.Base.html#2948" class="Function"
-      >List.length</a
-      ><a name="1414"
-      > </a
-      ><a name="1415" class="Symbol"
-      >(</a
-      ><a name="1416" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1422"
-      > </a
-      ><a name="1423" href="Data.String.html#1379" class="Bound"
-      >s</a
-      ><a name="1424" class="Symbol"
-      >))</a
-      ><a name="1426"
-      >
-</a
-      ><a name="1427" href="Data.String.html#1370" class="Function"
-      >toVec</a
-      ><a name="1432"
-      > </a
-      ><a name="1433" href="Data.String.html#1433" class="Bound"
-      >s</a
-      ><a name="1434"
-      > </a
-      ><a name="1435" class="Symbol"
-      >=</a
-      ><a name="1436"
-      > </a
-      ><a name="1437" href="Data.Vec.html#4833" class="Function"
-      >Vec.fromList</a
-      ><a name="1449"
-      > </a
-      ><a name="1450" class="Symbol"
-      >(</a
-      ><a name="1451" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1457"
-      > </a
-      ><a name="1458" href="Data.String.html#1433" class="Bound"
-      >s</a
-      ><a name="1459" class="Symbol"
-      >)</a
-      ><a name="1460"
-      >
-
-</a
-      ><a name="1462" href="Data.String.html#1462" class="Function"
-      >toCostring</a
-      ><a name="1472"
-      > </a
-      ><a name="1473" class="Symbol"
-      >:</a
-      ><a name="1474"
-      > </a
-      ><a name="1475" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1481"
-      > </a
-      ><a name="1482" class="Symbol"
-      >&#8594;</a
-      ><a name="1483"
-      > </a
-      ><a name="1484" href="Data.String.html#901" class="Function"
-      >Costring</a
-      ><a name="1492"
-      >
-</a
-      ><a name="1493" href="Data.String.html#1462" class="Function"
-      >toCostring</a
-      ><a name="1503"
-      > </a
-      ><a name="1504" class="Symbol"
-      >=</a
-      ><a name="1505"
-      > </a
-      ><a name="1506" href="Data.Colist.html#2459" class="Function"
-      >Colist.fromList</a
-      ><a name="1521"
-      > </a
-      ><a name="1522" href="Function.html#713" class="Function Operator"
-      >&#8728;</a
-      ><a name="1523"
-      > </a
-      ><a name="1524" href="Data.String.html#1100" class="Function"
-      >toList</a
-      ><a name="1530"
-      >
-
-</a
-      ><a name="1532" href="Data.String.html#1532" class="Function"
-      >unlines</a
-      ><a name="1539"
-      > </a
-      ><a name="1540" class="Symbol"
-      >:</a
-      ><a name="1541"
-      > </a
-      ><a name="1542" href="Data.List.Base.html#669" class="Datatype"
-      >List</a
-      ><a name="1546"
-      > </a
-      ><a name="1547" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1553"
-      > </a
-      ><a name="1554" class="Symbol"
-      >&#8594;</a
-      ><a name="1555"
-      > </a
-      ><a name="1556" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1562"
-      >
-</a
-      ><a name="1563" href="Data.String.html#1532" class="Function"
-      >unlines</a
-      ><a name="1570"
-      > </a
-      ><a name="1571" href="Data.List.Base.html#706" class="InductiveConstructor"
-      >[]</a
-      ><a name="1573"
-      >       </a
-      ><a name="1580" class="Symbol"
-      >=</a
-      ><a name="1581"
-      > </a
-      ><a name="1582" class="String"
-      >&quot;&quot;</a
-      ><a name="1584"
-      >
-</a
-      ><a name="1585" href="Data.String.html#1532" class="Function"
-      >unlines</a
-      ><a name="1592"
-      > </a
-      ><a name="1593" class="Symbol"
-      >(</a
-      ><a name="1594" href="Data.String.html#1594" class="Bound"
-      >x</a
-      ><a name="1595"
-      > </a
-      ><a name="1596" href="Data.List.Base.html#721" class="InductiveConstructor Operator"
-      >&#8759;</a
-      ><a name="1597"
-      > </a
-      ><a name="1598" href="Data.String.html#1598" class="Bound"
-      >xs</a
-      ><a name="1600" class="Symbol"
-      >)</a
-      ><a name="1601"
-      > </a
-      ><a name="1602" class="Symbol"
-      >=</a
-      ><a name="1603"
-      > </a
-      ><a name="1604" href="Data.String.html#1594" class="Bound"
-      >x</a
-      ><a name="1605"
-      > </a
-      ><a name="1606" href="Data.String.html#1043" class="Function Operator"
-      >++</a
-      ><a name="1608"
-      > </a
-      ><a name="1609" class="String"
-      >&quot;\n&quot;</a
-      ><a name="1613"
-      > </a
-      ><a name="1614" href="Data.String.html#1043" class="Function Operator"
-      >++</a
-      ><a name="1616"
-      > </a
-      ><a name="1617" href="Data.String.html#1532" class="Function"
-      >unlines</a
-      ><a name="1624"
-      > </a
-      ><a name="1625" href="Data.String.html#1598" class="Bound"
-      >xs</a
-      ><a name="1627"
-      >
-
-</a
-      ><a name="1629" href="Data.String.html#1629" class="Function"
-      >show</a
-      ><a name="1633"
-      > </a
-      ><a name="1634" class="Symbol"
-      >:</a
-      ><a name="1635"
-      > </a
-      ><a name="1636" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1642"
-      > </a
-      ><a name="1643" class="Symbol"
-      >&#8594;</a
-      ><a name="1644"
-      > </a
-      ><a name="1645" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1651"
-      >
-</a
-      ><a name="1652" href="Data.String.html#1629" class="Function"
-      >show</a
-      ><a name="1656"
-      > </a
-      ><a name="1657" class="Symbol"
-      >=</a
-      ><a name="1658"
-      > </a
-      ><a name="1659" href="Data.String.Core.html#831" class="Primitive"
-      >primShowString</a
-      ><a name="1673"
-      >
-
-</a
-      ><a name="1675" class="Comment"
-      >-- Informative equality test.</a
-      ><a name="1704"
-      >
-
-</a
-      ><a name="1706" href="Data.String.html#1706" class="Function Operator"
-      >_&#8799;_</a
-      ><a name="1709"
-      > </a
-      ><a name="1710" class="Symbol"
-      >:</a
-      ><a name="1711"
-      > </a
-      ><a name="1712" href="Relation.Binary.Core.html#3511" class="Function"
-      >Decidable</a
-      ><a name="1721"
-      > </a
-      ><a name="1722" class="Symbol"
-      >{</a
-      ><a name="1723" class="Argument"
-      >A</a
-      ><a name="1724"
-      > </a
-      ><a name="1725" class="Symbol"
-      >=</a
-      ><a name="1726"
-      > </a
-      ><a name="1727" href="Data.String.Core.html#462" class="Postulate"
-      >String</a
-      ><a name="1733" class="Symbol"
-      >}</a
-      ><a name="1734"
-      > </a
-      ><a name="1735" href="Relation.Binary.Core.html#4603" class="Datatype Operator"
-      >_&#8801;_</a
-      ><a name="1738"
-      >
-</a
-      ><a name="1739" href="Data.String.html#1739" class="Bound"
-      >s&#8321;</a
-      ><a name="1741"
-      > </a
-      ><a name="1742" href="Data.String.html#1706" class="Function Operator"
-      >&#8799;</a
-      ><a name="1743"
-      > </a
-      ><a name="1744" href="Data.String.html#1744" class="Bound"
-      >s&#8322;</a
-      ><a name="1746"
-      > </a
-      ><a name="1747" class="Keyword"
-      >with</a
-      ><a name="1751"
-      > </a
-      ><a name="1752" href="Data.String.Core.html#785" class="Primitive"
-      >primStringEquality</a
-      ><a name="1770"
-      > </a
-      ><a name="1771" href="Data.String.html#1739" class="Bound"
-      >s&#8321;</a
-      ><a name="1773"
-      > </a
-      ><a name="1774" href="Data.String.html#1744" class="Bound"
-      >s&#8322;</a
-      ><a name="1776"
-      >
-</a
-      ><a name="1777" class="Symbol"
-      >...</a
-      ><a name="1780"
-      > </a
-      ><a name="1781" class="Symbol"
+      ><a name="1284" class="Symbol"
       >|</a
-      ><a name="1782"
+      ><a name="1285"
       > </a
-      ><a name="1783" href="Data.Bool.Base.html#488" class="InductiveConstructor"
-      >true</a
-      ><a name="1787"
-      >  </a
-      ><a name="1789" class="Symbol"
-      >=</a
-      ><a name="1790"
-      > </a
-      ><a name="1791" href="Relation.Nullary.Core.html#504" class="InductiveConstructor"
-      >yes</a
-      ><a name="1794"
-      > </a
-      ><a name="1795" href="Relation.Binary.PropositionalEquality.TrustMe.html#556" class="Function"
-      >trustMe</a
-      ><a name="1802"
-      >
-</a
-      ><a name="1803" class="Symbol"
-      >...</a
-      ><a name="1806"
-      > </a
-      ><a name="1807" class="Symbol"
-      >|</a
-      ><a name="1808"
-      > </a
-      ><a name="1809" href="Data.Bool.Base.html#503" class="InductiveConstructor"
+      ><a name="1286" href="Data.Bool.Base.html#503" class="InductiveConstructor"
       >false</a
-      ><a name="1814"
+      ><a name="1291"
       > </a
-      ><a name="1815" class="Symbol"
+      ><a name="1292" class="Symbol"
       >=</a
-      ><a name="1816"
+      ><a name="1293"
       > </a
-      ><a name="1817" href="Relation.Nullary.Core.html#531" class="InductiveConstructor"
+      ><a name="1294" href="Relation.Nullary.html#547" class="InductiveConstructor"
       >no</a
-      ><a name="1819"
+      ><a name="1296"
       > </a
-      ><a name="1820" href="Data.String.html#1847" class="Postulate"
+      ><a name="1297" href="Data.String.html#1324" class="Postulate"
       >whatever</a
-      ><a name="1828"
+      ><a name="1305"
       >
   </a
-      ><a name="1831" class="Keyword"
+      ><a name="1308" class="Keyword"
       >where</a
-      ><a name="1836"
+      ><a name="1313"
       > </a
-      ><a name="1837" class="Keyword"
+      ><a name="1314" class="Keyword"
       >postulate</a
-      ><a name="1846"
+      ><a name="1323"
       > </a
-      ><a name="1847" href="Data.String.html#1847" class="Postulate"
+      ><a name="1324" href="Data.String.html#1324" class="Postulate"
       >whatever</a
-      ><a name="1855"
+      ><a name="1332"
       > </a
-      ><a name="1856" class="Symbol"
+      ><a name="1333" class="Symbol"
       >:</a
-      ><a name="1857"
+      ><a name="1334"
       > </a
-      ><a name="1858" class="Symbol"
+      ><a name="1335" class="Symbol"
       >_</a
-      ><a name="1859"
+      ><a name="1336"
       >
 
 </a
-      ><a name="1861" class="Comment"
+      ><a name="1338" class="Comment"
       >-- Boolean equality test.</a
-      ><a name="1886"
+      ><a name="1363"
       >
 </a
-      ><a name="1887" class="Comment"
+      ><a name="1364" class="Comment"
       >--</a
-      ><a name="1889"
+      ><a name="1366"
       >
 </a
-      ><a name="1890" class="Comment"
+      ><a name="1367" class="Comment"
       >-- Why is the definition _==_&#160;=&#160;primStringEquality not used? One</a
-      ><a name="1954"
+      ><a name="1431"
       >
 </a
-      ><a name="1955" class="Comment"
+      ><a name="1432" class="Comment"
       >-- reason is that the present definition can sometimes improve type</a
-      ><a name="2022"
+      ><a name="1499"
       >
 </a
-      ><a name="2023" class="Comment"
+      ><a name="1500" class="Comment"
       >-- inference, at least with the version of Agda that is current at the</a
-      ><a name="2093"
+      ><a name="1570"
       >
 </a
-      ><a name="2094" class="Comment"
+      ><a name="1571" class="Comment"
       >-- time of writing: see unit-test below.</a
-      ><a name="2134"
+      ><a name="1611"
       >
 
 </a
-      ><a name="2136" class="Keyword"
+      ><a name="1613" class="Keyword"
       >infix</a
-      ><a name="2141"
+      ><a name="1618"
       > </a
-      ><a name="2142" class="Number"
+      ><a name="1619" class="Number"
       >4</a
-      ><a name="2143"
+      ><a name="1620"
       > _==_
 
 </a
-      ><a name="2150" href="Data.String.html#2150" class="Function Operator"
+      ><a name="1627" href="Data.String.html#1627" class="Function Operator"
       >_==_</a
-      ><a name="2154"
+      ><a name="1631"
       > </a
-      ><a name="2155" class="Symbol"
+      ><a name="1632" class="Symbol"
       >:</a
-      ><a name="2156"
+      ><a name="1633"
       > </a
-      ><a name="2157" href="Data.String.Core.html#462" class="Postulate"
+      ><a name="1634" href="Data.String.Base.html#577" class="Postulate"
       >String</a
-      ><a name="2163"
+      ><a name="1640"
       > </a
-      ><a name="2164" class="Symbol"
+      ><a name="1641" class="Symbol"
       >&#8594;</a
-      ><a name="2165"
+      ><a name="1642"
       > </a
-      ><a name="2166" href="Data.String.Core.html#462" class="Postulate"
+      ><a name="1643" href="Data.String.Base.html#577" class="Postulate"
       >String</a
-      ><a name="2172"
+      ><a name="1649"
       > </a
-      ><a name="2173" class="Symbol"
+      ><a name="1650" class="Symbol"
       >&#8594;</a
-      ><a name="2174"
+      ><a name="1651"
       > </a
-      ><a name="2175" href="Data.Bool.Base.html#469" class="Datatype"
+      ><a name="1652" href="Data.Bool.Base.html#469" class="Datatype"
       >Bool</a
-      ><a name="2179"
+      ><a name="1656"
       >
 </a
-      ><a name="2180" href="Data.String.html#2180" class="Bound"
+      ><a name="1657" href="Data.String.html#1657" class="Bound"
       >s&#8321;</a
-      ><a name="2182"
+      ><a name="1659"
       > </a
-      ><a name="2183" href="Data.String.html#2150" class="Function Operator"
+      ><a name="1660" href="Data.String.html#1627" class="Function Operator"
       >==</a
-      ><a name="2185"
+      ><a name="1662"
       > </a
-      ><a name="2186" href="Data.String.html#2186" class="Bound"
+      ><a name="1663" href="Data.String.html#1663" class="Bound"
       >s&#8322;</a
-      ><a name="2188"
+      ><a name="1665"
       > </a
-      ><a name="2189" class="Symbol"
+      ><a name="1666" class="Symbol"
       >=</a
-      ><a name="2190"
+      ><a name="1667"
       > </a
-      ><a name="2191" href="Relation.Nullary.Decidable.html#822" class="Function Operator"
+      ><a name="1668" href="Relation.Nullary.Decidable.html#822" class="Function Operator"
       >&#8970;</a
-      ><a name="2192"
+      ><a name="1669"
       > </a
-      ><a name="2193" href="Data.String.html#2180" class="Bound"
+      ><a name="1670" href="Data.String.html#1657" class="Bound"
       >s&#8321;</a
-      ><a name="2195"
+      ><a name="1672"
       > </a
-      ><a name="2196" href="Data.String.html#1706" class="Function Operator"
+      ><a name="1673" href="Data.String.html#1183" class="Function Operator"
       >&#8799;</a
-      ><a name="2197"
+      ><a name="1674"
       > </a
-      ><a name="2198" href="Data.String.html#2186" class="Bound"
+      ><a name="1675" href="Data.String.html#1663" class="Bound"
       >s&#8322;</a
-      ><a name="2200"
+      ><a name="1677"
       > </a
-      ><a name="2201" href="Relation.Nullary.Decidable.html#822" class="Function Operator"
+      ><a name="1678" href="Relation.Nullary.Decidable.html#822" class="Function Operator"
       >&#8971;</a
-      ><a name="2202"
+      ><a name="1679"
       >
 
 </a
-      ><a name="2204" class="Keyword"
+      ><a name="1681" class="Keyword"
       >private</a
-      ><a name="2211"
+      ><a name="1688"
       >
 
   </a
-      ><a name="2215" class="Comment"
+      ><a name="1692" class="Comment"
       >-- The following unit test does not type-check (at the time of</a
-      ><a name="2277"
+      ><a name="1754"
       >
   </a
-      ><a name="2280" class="Comment"
+      ><a name="1757" class="Comment"
       >-- writing) if _==_ is replaced by primStringEquality.</a
-      ><a name="2334"
+      ><a name="1811"
       >
 
   </a
-      ><a name="2338" class="Keyword"
+      ><a name="1815" class="Keyword"
       >data</a
-      ><a name="2342"
+      ><a name="1819"
       > </a
-      ><a name="2343" href="Data.String.html#2343" class="Datatype"
+      ><a name="1820" href="Data.String.html#1820" class="Datatype"
       >P</a
-      ><a name="2344"
+      ><a name="1821"
       > </a
-      ><a name="2345" class="Symbol"
+      ><a name="1822" class="Symbol"
       >:</a
-      ><a name="2346"
+      ><a name="1823"
       > </a
-      ><a name="2347" class="Symbol"
+      ><a name="1824" class="Symbol"
       >(</a
-      ><a name="2348" href="Data.String.Core.html#462" class="Postulate"
+      ><a name="1825" href="Data.String.Base.html#577" class="Postulate"
       >String</a
-      ><a name="2354"
+      ><a name="1831"
       > </a
-      ><a name="2355" class="Symbol"
+      ><a name="1832" class="Symbol"
       >&#8594;</a
-      ><a name="2356"
+      ><a name="1833"
       > </a
-      ><a name="2357" href="Data.Bool.Base.html#469" class="Datatype"
+      ><a name="1834" href="Data.Bool.Base.html#469" class="Datatype"
       >Bool</a
-      ><a name="2361" class="Symbol"
+      ><a name="1838" class="Symbol"
       >)</a
-      ><a name="2362"
+      ><a name="1839"
       > </a
-      ><a name="2363" class="Symbol"
+      ><a name="1840" class="Symbol"
       >&#8594;</a
-      ><a name="2364"
+      ><a name="1841"
       > </a
-      ><a name="2365" class="PrimitiveType"
+      ><a name="1842" class="PrimitiveType"
       >Set</a
-      ><a name="2368"
+      ><a name="1845"
       > </a
-      ><a name="2369" class="Keyword"
+      ><a name="1846" class="Keyword"
       >where</a
-      ><a name="2374"
+      ><a name="1851"
       >
     </a
-      ><a name="2379" href="Data.String.html#2379" class="InductiveConstructor"
+      ><a name="1856" href="Data.String.html#1856" class="InductiveConstructor"
       >p</a
-      ><a name="2380"
+      ><a name="1857"
       > </a
-      ><a name="2381" class="Symbol"
+      ><a name="1858" class="Symbol"
       >:</a
-      ><a name="2382"
+      ><a name="1859"
       > </a
-      ><a name="2383" class="Symbol"
+      ><a name="1860" class="Symbol"
       >(</a
-      ><a name="2384" href="Data.String.html#2384" class="Bound"
+      ><a name="1861" href="Data.String.html#1861" class="Bound"
       >c</a
-      ><a name="2385"
+      ><a name="1862"
       > </a
-      ><a name="2386" class="Symbol"
+      ><a name="1863" class="Symbol"
       >:</a
-      ><a name="2387"
+      ><a name="1864"
       > </a
-      ><a name="2388" href="Data.String.Core.html#462" class="Postulate"
+      ><a name="1865" href="Data.String.Base.html#577" class="Postulate"
       >String</a
-      ><a name="2394" class="Symbol"
+      ><a name="1871" class="Symbol"
       >)</a
-      ><a name="2395"
+      ><a name="1872"
       > </a
-      ><a name="2396" class="Symbol"
+      ><a name="1873" class="Symbol"
       >&#8594;</a
-      ><a name="2397"
+      ><a name="1874"
       > </a
-      ><a name="2398" href="Data.String.html#2343" class="Datatype"
+      ><a name="1875" href="Data.String.html#1820" class="Datatype"
       >P</a
-      ><a name="2399"
+      ><a name="1876"
       > </a
-      ><a name="2400" class="Symbol"
+      ><a name="1877" class="Symbol"
       >(</a
-      ><a name="2401" href="Data.String.html#2150" class="Function Operator"
+      ><a name="1878" href="Data.String.html#1627" class="Function Operator"
       >_==_</a
-      ><a name="2405"
+      ><a name="1882"
       > </a
-      ><a name="2406" href="Data.String.html#2384" class="Bound"
+      ><a name="1883" href="Data.String.html#1861" class="Bound"
       >c</a
-      ><a name="2407" class="Symbol"
+      ><a name="1884" class="Symbol"
       >)</a
-      ><a name="2408"
+      ><a name="1885"
       >
 
   </a
-      ><a name="2412" href="Data.String.html#2412" class="Function"
+      ><a name="1889" href="Data.String.html#1889" class="Function"
       >unit-test</a
-      ><a name="2421"
+      ><a name="1898"
       > </a
-      ><a name="2422" class="Symbol"
+      ><a name="1899" class="Symbol"
       >:</a
-      ><a name="2423"
+      ><a name="1900"
       > </a
-      ><a name="2424" href="Data.String.html#2343" class="Datatype"
+      ><a name="1901" href="Data.String.html#1820" class="Datatype"
       >P</a
-      ><a name="2425"
+      ><a name="1902"
       > </a
-      ><a name="2426" class="Symbol"
+      ><a name="1903" class="Symbol"
       >(</a
-      ><a name="2427" href="Data.String.html#2150" class="Function Operator"
+      ><a name="1904" href="Data.String.html#1627" class="Function Operator"
       >_==_</a
-      ><a name="2431"
+      ><a name="1908"
       > </a
-      ><a name="2432" class="String"
+      ><a name="1909" class="String"
       >&quot;&quot;</a
-      ><a name="2434" class="Symbol"
+      ><a name="1911" class="Symbol"
       >)</a
-      ><a name="2435"
+      ><a name="1912"
       >
   </a
-      ><a name="2438" href="Data.String.html#2412" class="Function"
+      ><a name="1915" href="Data.String.html#1889" class="Function"
       >unit-test</a
-      ><a name="2447"
+      ><a name="1924"
       > </a
-      ><a name="2448" class="Symbol"
+      ><a name="1925" class="Symbol"
       >=</a
-      ><a name="2449"
+      ><a name="1926"
       > </a
-      ><a name="2450" href="Data.String.html#2379" class="InductiveConstructor"
+      ><a name="1927" href="Data.String.html#1856" class="InductiveConstructor"
       >p</a
-      ><a name="2451"
+      ><a name="1928"
       > </a
-      ><a name="2452" class="Symbol"
+      ><a name="1929" class="Symbol"
       >_</a
-      ><a name="2453"
+      ><a name="1930"
       >
 
 </a
-      ><a name="2455" href="Data.String.html#2455" class="Function"
+      ><a name="1932" href="Data.String.html#1932" class="Function"
       >setoid</a
-      ><a name="2461"
+      ><a name="1938"
       > </a
-      ><a name="2462" class="Symbol"
+      ><a name="1939" class="Symbol"
       >:</a
-      ><a name="2463"
+      ><a name="1940"
       > </a
-      ><a name="2464" href="Relation.Binary.html#1852" class="Record"
+      ><a name="1941" href="Relation.Binary.html#1852" class="Record"
       >Setoid</a
-      ><a name="2470"
+      ><a name="1947"
       > </a
-      ><a name="2471" class="Symbol"
+      ><a name="1948" class="Symbol"
       >_</a
-      ><a name="2472"
+      ><a name="1949"
       > </a
-      ><a name="2473" class="Symbol"
+      ><a name="1950" class="Symbol"
       >_</a
-      ><a name="2474"
+      ><a name="1951"
       >
 </a
-      ><a name="2475" href="Data.String.html#2455" class="Function"
+      ><a name="1952" href="Data.String.html#1932" class="Function"
       >setoid</a
-      ><a name="2481"
+      ><a name="1958"
       > </a
-      ><a name="2482" class="Symbol"
+      ><a name="1959" class="Symbol"
       >=</a
-      ><a name="2483"
+      ><a name="1960"
       > </a
-      ><a name="2484" href="Relation.Binary.PropositionalEquality.html#1526" class="Function"
+      ><a name="1961" href="Relation.Binary.PropositionalEquality.html#1526" class="Function"
       >PropEq.setoid</a
-      ><a name="2497"
+      ><a name="1974"
       > </a
-      ><a name="2498" href="Data.String.Core.html#462" class="Postulate"
+      ><a name="1975" href="Data.String.Base.html#577" class="Postulate"
       >String</a
-      ><a name="2504"
+      ><a name="1981"
       >
 
 </a
-      ><a name="2506" href="Data.String.html#2506" class="Function"
+      ><a name="1983" href="Data.String.html#1983" class="Function"
       >decSetoid</a
-      ><a name="2515"
+      ><a name="1992"
       > </a
-      ><a name="2516" class="Symbol"
+      ><a name="1993" class="Symbol"
       >:</a
-      ><a name="2517"
+      ><a name="1994"
       > </a
-      ><a name="2518" href="Relation.Binary.html#2921" class="Record"
+      ><a name="1995" href="Relation.Binary.html#2921" class="Record"
       >DecSetoid</a
-      ><a name="2527"
+      ><a name="2004"
       > </a
-      ><a name="2528" class="Symbol"
+      ><a name="2005" class="Symbol"
       >_</a
-      ><a name="2529"
+      ><a name="2006"
       > </a
-      ><a name="2530" class="Symbol"
+      ><a name="2007" class="Symbol"
       >_</a
-      ><a name="2531"
+      ><a name="2008"
       >
 </a
-      ><a name="2532" href="Data.String.html#2506" class="Function"
+      ><a name="2009" href="Data.String.html#1983" class="Function"
       >decSetoid</a
-      ><a name="2541"
+      ><a name="2018"
       > </a
-      ><a name="2542" class="Symbol"
+      ><a name="2019" class="Symbol"
       >=</a
-      ><a name="2543"
+      ><a name="2020"
       > </a
-      ><a name="2544" href="Relation.Binary.PropositionalEquality.html#1665" class="Function"
+      ><a name="2021" href="Relation.Binary.PropositionalEquality.html#1665" class="Function"
       >PropEq.decSetoid</a
-      ><a name="2560"
+      ><a name="2037"
       > </a
-      ><a name="2561" href="Data.String.html#1706" class="Function Operator"
+      ><a name="2038" href="Data.String.html#1183" class="Function Operator"
       >_&#8799;_</a
-      ><a name="2564"
+      ><a name="2041"
       >
 
 </a
-      ><a name="2566" class="Comment"
+      ><a name="2043" class="Comment"
       >-- Lexicographic ordering of strings.</a
-      ><a name="2603"
+      ><a name="2080"
       >
 
 </a
-      ><a name="2605" href="Data.String.html#2605" class="Function"
+      ><a name="2082" href="Data.String.html#2082" class="Function"
       >strictTotalOrder</a
-      ><a name="2621"
+      ><a name="2098"
       > </a
-      ><a name="2622" class="Symbol"
+      ><a name="2099" class="Symbol"
       >:</a
-      ><a name="2623"
+      ><a name="2100"
       > </a
-      ><a name="2624" href="Relation.Binary.html#10903" class="Record"
+      ><a name="2101" href="Relation.Binary.html#10903" class="Record"
       >StrictTotalOrder</a
-      ><a name="2640"
+      ><a name="2117"
       > </a
-      ><a name="2641" class="Symbol"
+      ><a name="2118" class="Symbol"
       >_</a
-      ><a name="2642"
+      ><a name="2119"
       > </a
-      ><a name="2643" class="Symbol"
+      ><a name="2120" class="Symbol"
       >_</a
-      ><a name="2644"
+      ><a name="2121"
       > </a
-      ><a name="2645" class="Symbol"
+      ><a name="2122" class="Symbol"
       >_</a
-      ><a name="2646"
+      ><a name="2123"
       >
 </a
-      ><a name="2647" href="Data.String.html#2605" class="Function"
+      ><a name="2124" href="Data.String.html#2082" class="Function"
       >strictTotalOrder</a
-      ><a name="2663"
+      ><a name="2140"
       > </a
-      ><a name="2664" class="Symbol"
+      ><a name="2141" class="Symbol"
       >=</a
-      ><a name="2665"
+      ><a name="2142"
       >
   </a
-      ><a name="2668" href="Relation.Binary.On.html#7064" class="Function"
+      ><a name="2145" href="Relation.Binary.On.html#7064" class="Function"
       >On.strictTotalOrder</a
-      ><a name="2687"
+      ><a name="2164"
       >
     </a
-      ><a name="2692" class="Symbol"
+      ><a name="2169" class="Symbol"
       >(</a
-      ><a name="2693" href="Relation.Binary.List.StrictLex.html#11850" class="Function"
+      ><a name="2170" href="Relation.Binary.List.StrictLex.html#11850" class="Function"
       >StrictLex.&lt;-strictTotalOrder</a
-      ><a name="2721"
+      ><a name="2198"
       > </a
-      ><a name="2722" href="Data.Char.html#1736" class="Function"
+      ><a name="2199" href="Data.Char.html#1657" class="Function"
       >Char.strictTotalOrder</a
-      ><a name="2743" class="Symbol"
+      ><a name="2220" class="Symbol"
       >)</a
-      ><a name="2744"
+      ><a name="2221"
       >
     </a
-      ><a name="2749" href="Data.String.html#1100" class="Function"
+      ><a name="2226" href="Data.String.Base.html#1144" class="Function"
       >toList</a
-      ><a name="2755"
+      ><a name="2232"
       >
 </a
       ></pre
